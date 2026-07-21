@@ -1,0 +1,7 @@
+browser_profile/
+debug_shots/*.png
+debug_shots/*.html
+debug_shots/poc_result.json
+__pycache__/
+*.pyc
+.env

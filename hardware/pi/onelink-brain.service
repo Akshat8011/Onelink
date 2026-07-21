@@ -1,0 +1,20 @@
+[Unit]
+Description=OneLink Brain (MQTT to WebSocket bridge for kiosk)
+After=network-online.target
+Wants=network-online.target
+# Start after the local kiosk HTTP server so the browser can load the page.
+After=onelink-kiosk-ui.service
+
+[Service]
+Type=notify
+User=pi
+WorkingDirectory=/home/pi/Onelink/hardware/pi
+EnvironmentFile=-/etc/onelink/brain.env
+ExecStart=/usr/bin/python3 /home/pi/Onelink/hardware/pi/brain.py
+Restart=always
+RestartSec=3
+# brain.py sends WATCHDOG=1 every 15s when NOTIFY_SOCKET is set.
+WatchdogSec=30
+
+[Install]
+WantedBy=multi-user.target

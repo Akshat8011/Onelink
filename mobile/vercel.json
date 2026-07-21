@@ -1,0 +1,23 @@
+{
+  "headers": [
+    {
+      "source": "/kiosk/canteen-images/(.*)",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" },
+        { "key": "Access-Control-Allow-Origin", "value": "*" }
+      ]
+    },
+    {
+      "source": "/kiosk/(.*)\\.(js|css|jpg|jpeg|png|webp|gif|svg|ico|woff2?)",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=86400" }
+      ]
+    }
+  ],
+  "rewrites": [
+    { "source": "/kiosk", "destination": "/kiosk/index.html" },
+    { "source": "/kiosk/", "destination": "/kiosk/index.html" },
+    { "source": "/((?!api/|kiosk/).*)", "destination": "/index.html" }
+  ],
+  "outputDirectory": "dist"
+}

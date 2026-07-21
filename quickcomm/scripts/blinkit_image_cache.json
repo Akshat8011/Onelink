@@ -1,0 +1,77 @@
+{
+  "amul taaza milk": {
+    "name": "Amul Taaza Homogenised Toned Milk",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=360/da/cms-assets/cms/product/9a4088cc-db19-4add-b3ce-2edd4d09f4ae.png",
+    "price": 13.0
+  },
+  "sunfeast dark fantasy": {
+    "name": "Orion Mango Choco Pie",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=360/da/cms-assets/cms/product/rc-upload-1782854760536-59.png",
+    "price": 13.0
+  },
+  "britannia treat jim jam": {
+    "name": "Oreo Golden Vanilla Sandwich Cream Biscuits",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=360/da/cms-assets/cms/product/rc-upload-1782073672796-311.png",
+    "price": 13.0
+  },
+  "lays chips": {
+    "name": "Haldiram's Pudina Treat Potato Chips",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=360/da/cms-assets/cms/product/98a2465a-2dbf-4319-86e0-46a5744d52a9.png",
+    "price": 13.0
+  },
+  "maggi noodles": {
+    "name": "Maggi Ayam Bakar Chicken Noodles",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=360/da/cms-assets/cms/product/rc-upload-1771305481383-5698.png",
+    "price": 13.0
+  },
+  "colgate toothpaste": {
+    "name": "Sensodyne Pronamel Toothpaste - Fresh Breath",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=360/da/cms-assets/cms/product/f9738160-0123-4fee-9df9-d8290f58d456.png",
+    "price": 13.0
+  },
+  "aashirvaad atta": {
+    "name": "Aashirvaad atta",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/da/cms-assets/cms/product/rc-upload-1776471758958-226.png?dpr_multiplier=3.00",
+    "price": 10.0
+  },
+  "banana": {
+    "name": "Let's Try Nendran Rock Salt Banana Chips",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=360/da/cms-assets/cms/product/27a15992-c259-48f2-907f-862dc1c64220.png",
+    "price": 13.0
+  },
+  "broccoli": {
+    "name": "Broccoli Florets",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=360/da/cms-assets/cms/product/c4fb211a-fbd9-45d1-ab02-d53ce42d15cf.png",
+    "price": 13.0
+  },
+  "onion": {
+    "name": "Onion (Pyaz)",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=360/da/cms-assets/cms/product/f53c1ea1-cfa0-438b-a14c-b4f5ebeed7dd.png",
+    "price": 13.0
+  },
+  "coca cola": {
+    "name": "Coca-Cola Soft Drink",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=360/da/cms-assets/cms/product/rc-upload-1770356946958-118.png",
+    "price": 13.0
+  },
+  "dove soap": {
+    "name": "Cetaphil Cleansing & Moisturizing Syndet Soap - Recommended by Dermatologists",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=360/da/cms-assets/cms/product/4d624860-97ea-48a8-88cf-bad31fe608a1.png",
+    "price": 12.0
+  },
+  "surf excel": {
+    "name": "Surf Excel Easy Wash Detergent Powder",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=360/da/cms-assets/cms/product/83ec4dd2-72f6-4c64-9a37-c38b32612db8.png",
+    "price": 12.0
+  },
+  "tata tea": {
+    "name": "Tata Tea Premium Tea (Mini Pack)",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=360/da/cms-assets/cms/product/31bf6470-2a02-45c1-a340-4793cfbd9186.png",
+    "price": 12.0
+  },
+  "parle g": {
+    "name": "Parle-G Gold Biscuit",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=360/da/cms-assets/cms/product/6e984e48-07b9-4a5b-8915-21b70ae5f7e5.png",
+    "price": 12.0
+  }
+}

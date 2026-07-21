@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>QuickComm Demo Catalog</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #f5f0e8;
+        --panel: #ffffff;
+        --text: #1f2937;
+        --muted: #6b7280;
+        --accent: #0f766e;
+        --border: #e5e7eb;
+      }
+
+      body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background: linear-gradient(135deg, #f5f0e8 0%, #eef6f4 100%);
+        color: var(--text);
+      }
+
+      .shell {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 32px 20px 48px;
+      }
+
+      .panel {
+        background: rgba(255, 255, 255, 0.92);
+        border: 1px solid var(--border);
+        border-radius: 20px;
+        padding: 20px;
+        box-shadow: 0 24px 70px rgba(15, 23, 42, 0.08);
+      }
+
+      .grid {
+        display: grid;
+        gap: 12px;
+        grid-template-columns: 1fr 1fr auto;
+      }
+
+      input,
+      button {
+        font: inherit;
+        border-radius: 12px;
+        border: 1px solid var(--border);
+        padding: 12px 14px;
+      }
+
+      button {
+        background: var(--accent);
+        color: white;
+        cursor: pointer;
+        border: 0;
+      }
+
+      .meta {
+        margin-top: 10px;
+        color: var(--muted);
+        font-size: 14px;
+      }
+
+      .results {
+        margin-top: 20px;
+        display: grid;
+        gap: 16px;
+      }
+
+      .card {
+        display: grid;
+        grid-template-columns: 110px 1fr auto;
+        gap: 16px;
+        align-items: center;
+        padding: 16px;
+        border: 1px solid var(--border);
+        border-radius: 18px;
+        background: var(--panel);
+      }
+
+      .card img {
+        width: 110px;
+        height: 110px;
+        object-fit: cover;
+        border-radius: 14px;
+      }
+
+      .title {
+        font-size: 18px;
+        font-weight: 700;
+      }
+
+      .price {
+        font-size: 24px;
+        font-weight: 800;
+      }
+
+      .delivery {
+        color: var(--muted);
+        margin-top: 6px;
+      }
+
+      .status {
+        margin-top: 14px;
+        display: none;
+      }
+
+      .status.visible {
+        display: block;
+      }
+
+      @media (max-width: 720px) {
+        .grid,
+        .card {
+          grid-template-columns: 1fr;
+        }
+
+        .card img {
+          width: 100%;
+          height: 180px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="shell">
+      <section class="panel">
+        <h1>QuickComm Demo Catalog</h1>
+        <p class="meta">Controlled test page for browser automation. Search, location entry, and product extraction are all local.</p>
+
+        <div class="grid">
+          <input name="pincode" placeholder="Enter pincode" value="" />
+          <input name="query" placeholder="Search products" value="" />
+          <button type="button" data-testid="search-submit">Search</button>
+        </div>
+
+        <div id="status" class="status">Showing one result for demo purposes.</div>
+
+        <div class="results">
+          <article class="card" data-testid="product-card" hidden>
+            <img src="https://images.unsplash.com/photo-1563636619-e9143da7973b?auto=format&fit=crop&w=300&q=80" alt="product" />
+            <div>
+              <div data-testid="product-title" class="title">Amul Taaza Milk 500ml</div>
+              <div data-testid="delivery-time" class="delivery">12 MINS</div>
+            </div>
+            <div data-testid="product-price" class="price">₹32</div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <script>
+      const status = document.getElementById('status');
+      const card = document.querySelector('[data-testid="product-card"]');
+      document.querySelector('[data-testid="search-submit"]').addEventListener('click', () => {
+        status.classList.add('visible');
+        card.hidden = false;
+      });
+    </script>
+  </body>
+</html>

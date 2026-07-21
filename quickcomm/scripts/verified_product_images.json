@@ -1,0 +1,2930 @@
+{
+  "Amul|Taaza Toned Milk": {
+    "brand": "Amul",
+    "name": "Taaza Toned Milk",
+    "query": "Amul Taaza Toned Milk",
+    "matched_name": "Amul Taaza Toned Milk",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/852a402a-54ac-41d5-9263-187f4b077171.png",
+    "score": 100,
+    "verified": true
+  },
+  "Amul|Gold Full Cream Milk": {
+    "brand": "Amul",
+    "name": "Gold Full Cream Milk",
+    "query": "Amul Gold Full Cream Milk",
+    "matched_name": "Amul Gold Full Cream Milk",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/628c97e0-5ed4-425d-a667-1d3bfa6f0bde.png",
+    "score": 100,
+    "verified": true
+  },
+  "Amul|Butter": {
+    "brand": "Amul",
+    "name": "Butter",
+    "query": "Amul Butter",
+    "matched_name": "Amul Salted Butter",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1781155438653-138.png",
+    "score": 100,
+    "verified": true
+  },
+  "Amul|Paneer": {
+    "brand": "Amul",
+    "name": "Paneer",
+    "query": "Amul Paneer",
+    "matched_name": "Amul Fresh Malai Paneer",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/7a1700ee-dd38-49cf-b34e-171ff84ac0e7.png",
+    "score": 100,
+    "verified": true
+  },
+  "Mother Dairy|Toned Milk": {
+    "brand": "Mother Dairy",
+    "name": "Toned Milk",
+    "query": "Mother Dairy Toned Milk",
+    "matched_name": "Mother Dairy Toned Milk",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/a538dae1-f4a3-49c9-aaf0-586b2855f825.png",
+    "score": 100,
+    "verified": true
+  },
+  "Mother Dairy|Classic Curd": {
+    "brand": "Mother Dairy",
+    "name": "Classic Curd",
+    "query": "Mother Dairy Classic Curd",
+    "matched_name": "Mother Dairy Classic Cup Curd",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1774944833006-545.png",
+    "score": 100,
+    "verified": true
+  },
+  "Britannia|Good Day Cashew Cookies": {
+    "brand": "Britannia",
+    "name": "Good Day Cashew Cookies",
+    "query": "Britannia Good Day Cashew Cookies",
+    "matched_name": "Britannia Good Day Cashew Cookies Family Pack",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1782099128815-1869.png",
+    "score": 100,
+    "verified": true
+  },
+  "Britannia|Brown Bread": {
+    "brand": "Britannia",
+    "name": "Brown Bread",
+    "query": "Britannia Brown Bread",
+    "matched_name": "Britannia Brown Bread",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1772535388856-380.png",
+    "score": 100,
+    "verified": true
+  },
+  "Britannia|Cheese Slices": {
+    "brand": "Britannia",
+    "name": "Cheese Slices",
+    "query": "Britannia Cheese Slices",
+    "matched_name": "Britannia Laughing Cow Cheese Slices (180 g)",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1773386521983-4.png",
+    "score": 100,
+    "verified": true
+  },
+  "Nestle|Everyday Dairy Whitener": {
+    "brand": "Nestle",
+    "name": "Everyday Dairy Whitener",
+    "query": "Nestle Everyday Dairy Whitener",
+    "matched_name": "Nestle Everyday Dairy Whitener",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1783489205837-18.png",
+    "score": 100,
+    "verified": true
+  },
+  "Kellogg's|Corn Flakes Original": {
+    "brand": "Kellogg's",
+    "name": "Corn Flakes Original",
+    "query": "Kellogg's Corn Flakes Original",
+    "matched_name": "Kellogg's Original Corn Flakes",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1779767007480-263.png",
+    "score": 100,
+    "verified": true
+  },
+  "Eggs|Farm Fresh White Eggs": {
+    "brand": "Eggs",
+    "name": "Farm Fresh White Eggs",
+    "query": "Eggs Farm Fresh White Eggs",
+    "matched_name": "The Urban Eggs Farm Fresh White Eggs",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/0e1b6f73-3f19-485a-a6bf-b2790e828614.png",
+    "score": 100,
+    "verified": true
+  },
+  "Lay's|Classic Salted Chips": {
+    "brand": "Lay's",
+    "name": "Classic Salted Chips",
+    "query": "Lay's Classic Salted Chips",
+    "matched_name": "Lay's Classic Salted Potato Chips",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1776375127483-57.png",
+    "score": 100,
+    "verified": true
+  },
+  "Lay's|Magic Masala Chips": {
+    "brand": "Lay's",
+    "name": "Magic Masala Chips",
+    "query": "Lay's Magic Masala Chips",
+    "matched_name": "Lay's India's Magic Masala Potato Chips",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1776240040304-466.png",
+    "score": 100,
+    "verified": true
+  },
+  "Haldiram's|Bhujia Sev": {
+    "brand": "Haldiram's",
+    "name": "Bhujia Sev",
+    "query": "Haldiram's Bhujia Sev",
+    "matched_name": "Haldiram's Long Sev Bhujia",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1777953701494-9624.png",
+    "score": 100,
+    "verified": true
+  },
+  "Parle-G|Glucose Biscuits": {
+    "brand": "Parle-G",
+    "name": "Glucose Biscuits",
+    "query": "Parle-G Glucose Biscuits",
+    "matched_name": "Parle-G Glucose Biscuit",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/7eaa9f5f-38a4-4c79-9c0a-38737a56be90.png",
+    "score": 100,
+    "verified": true
+  },
+  "Cadbury|Dairy Milk Chocolate": {
+    "brand": "Cadbury",
+    "name": "Dairy Milk Chocolate",
+    "query": "Cadbury Dairy Milk Chocolate",
+    "matched_name": "Cadbury Dairy Milk Fruit & Nut Chocolate Bar Cricket Pack",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1781076427833-862.png",
+    "score": 100,
+    "verified": true
+  },
+  "Kurkure|Masala Munch": {
+    "brand": "Kurkure",
+    "name": "Masala Munch",
+    "query": "Kurkure Masala Munch",
+    "matched_name": "Kurkure Masala Munch Crisps",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1780634830965-687.png",
+    "score": 100,
+    "verified": true
+  },
+  "Bingo|Mad Angles Achaari Masti": {
+    "brand": "Bingo",
+    "name": "Mad Angles Achaari Masti",
+    "query": "Bingo Mad Angles Achaari Masti",
+    "matched_name": "Bingo Mad Angles Achaari Masti Crisps / Chips",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1777353225068-27.png",
+    "score": 100,
+    "verified": true
+  },
+  "Uncle Chipps|Plain Salted": {
+    "brand": "Uncle Chipps",
+    "name": "Plain Salted",
+    "query": "Uncle Chipps Plain Salted",
+    "matched_name": "Uncle Chipps Plain Salted Potato Chips",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1782185292662-102.png",
+    "score": 100,
+    "verified": true
+  },
+  "Coca-Cola|Soft Drink": {
+    "brand": "Coca-Cola",
+    "name": "Soft Drink",
+    "query": "Coca-Cola Soft Drink",
+    "matched_name": "Coca-Cola Soft Drink",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1776743327762-37.png",
+    "score": 100,
+    "verified": true
+  },
+  "Pepsi|Soft Drink": {
+    "brand": "Pepsi",
+    "name": "Soft Drink",
+    "query": "Pepsi Soft Drink",
+    "matched_name": "Pepsi Soft Drink",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/347cf10e-19e6-472d-b426-5a05891c5d84.png",
+    "score": 100,
+    "verified": true
+  },
+  "Real|Mixed Fruit Juice": {
+    "brand": "Real",
+    "name": "Mixed Fruit Juice",
+    "query": "Real Mixed Fruit Juice",
+    "matched_name": "Real Fruit Power Mixed Fruit Juice 1 l",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/ff4a3ece-1ddf-4860-b293-c2c22c768bb6.png",
+    "score": 100,
+    "verified": true
+  },
+  "Bisleri|Packaged Water": {
+    "brand": "Bisleri",
+    "name": "Packaged Water",
+    "query": "Bisleri Packaged Water",
+    "matched_name": "Bisleri Packaged Water (1 l)",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/2faf253a-7e5b-4d53-9774-350add8d50b5.png",
+    "score": 100,
+    "verified": true
+  },
+  "Tata Tea|Gold Tea": {
+    "brand": "Tata Tea",
+    "name": "Gold Tea",
+    "query": "Tata Tea Gold Tea",
+    "matched_name": "Tata Tea Gold",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/a9643d0c-3ca2-4a15-8965-93b0c30ed217.png",
+    "score": 100,
+    "verified": true
+  },
+  "Nescafe|Classic Coffee": {
+    "brand": "Nescafe",
+    "name": "Classic Coffee",
+    "query": "Nescafe Classic Coffee",
+    "matched_name": "Nescafe Classic - 100% Pure Instant Coffee Powder",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/9d86f308-4ace-4263-bd44-3da5bf1e42dc.png",
+    "score": 100,
+    "verified": true
+  },
+  "Red Bull|Energy Drink": {
+    "brand": "Red Bull",
+    "name": "Energy Drink",
+    "query": "Red Bull Energy Drink",
+    "matched_name": "Red Bull Energy Drink (250 ml)",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/6f4bd423-1666-4d23-bf3d-db482be09608.png",
+    "score": 100,
+    "verified": true
+  },
+  "Aashirvaad|Select Atta": {
+    "brand": "Aashirvaad",
+    "name": "Select Atta",
+    "query": "Aashirvaad Select Atta",
+    "matched_name": "Aashirvaad Select 100% MP Sharbati Atta",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1780996492697-4.png",
+    "score": 100,
+    "verified": true
+  },
+  "Fortune|Sunlite Refined Sunflower Oil": {
+    "brand": "Fortune",
+    "name": "Sunlite Refined Sunflower Oil",
+    "query": "Fortune sunlite refined",
+    "matched_name": "Fortune Refined Groundnut Oil",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/71314ad0-3ef2-4a69-a1df-bf53d3465fc5.png",
+    "score": 67,
+    "verified": true
+  },
+  "India Gate|Basmati Rice Classic": {
+    "brand": "India Gate",
+    "name": "Basmati Rice Classic",
+    "query": "India Gate Basmati Rice Classic",
+    "matched_name": "India Gate Everyday Basmati Rice (Medium Grain)",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1776915617603-116.png",
+    "score": 85,
+    "verified": true
+  },
+  "Tata Sampann|Toor Dal": {
+    "brand": "Tata Sampann",
+    "name": "Toor Dal",
+    "query": "Tata Sampann Toor Dal",
+    "matched_name": "Tata Sampann Unpolished Toor Dal/Arhar Dal",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1783050942639-62.png",
+    "score": 100,
+    "verified": true
+  },
+  "Rajdhani|Chana Dal": {
+    "brand": "Rajdhani",
+    "name": "Chana Dal",
+    "query": "Rajdhani chana",
+    "matched_name": "Rajdhani Kala Chana",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1777287844551-465.png",
+    "score": 92,
+    "verified": true
+  },
+  "Tata Salt|Iodized Salt": {
+    "brand": "Tata Salt",
+    "name": "Iodized Salt",
+    "query": "Tata Salt Iodized Salt",
+    "matched_name": "Aashirvaad Iodized Natural Salt 1 kg",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/1ee62772-19e6-40bd-907f-1906e2efede5.png",
+    "score": 83,
+    "verified": true
+  },
+  "Madhur|Pure Sugar": {
+    "brand": "Madhur",
+    "name": "Pure Sugar",
+    "query": "Madhur Pure Sugar",
+    "matched_name": "Madhur Pure & Hygienic Sulphurless Sugar",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/39accb8f-7237-42dd-bdce-5ac2d168824e.png",
+    "score": 100,
+    "verified": true
+  },
+  "Maggi|2-Minute Noodles Masala": {
+    "brand": "Maggi",
+    "name": "2-Minute Noodles Masala",
+    "query": "Maggi 2-Minute Noodles Masala",
+    "matched_name": "Maggi Masala Cuppa Noodles",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1775533735848-312.png",
+    "score": 72,
+    "verified": true
+  },
+  "Knorr|Tomato Soup": {
+    "brand": "Knorr",
+    "name": "Tomato Soup",
+    "query": "Knorr Tomato Soup",
+    "matched_name": "Knorr Thick Tomato Soup",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1770870008650-1276.png",
+    "score": 100,
+    "verified": true
+  },
+  "Colgate|Strong Teeth Toothpaste": {
+    "brand": "Colgate",
+    "name": "Strong Teeth Toothpaste",
+    "query": "Colgate Strong Teeth Toothpaste",
+    "matched_name": "Colgate Strong Teeth Anticavity Toothpaste (150 g)",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1782323095081-352.png",
+    "score": 100,
+    "verified": true
+  },
+  "Dove|Cream Beauty Bathing Bar": {
+    "brand": "Dove",
+    "name": "Cream Beauty Bathing Bar",
+    "query": "Dove Cream Beauty Bathing Bar",
+    "matched_name": "Dove Beauty Cream Soap",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1781005836247-24.png",
+    "score": 87,
+    "verified": true
+  },
+  "Head & Shoulders|Anti-Dandruff Shampoo": {
+    "brand": "Head & Shoulders",
+    "name": "Anti-Dandruff Shampoo",
+    "query": "Head & Shoulders Anti-Dandruff Shampoo",
+    "matched_name": "Head & Shoulders Anti Dandruff Anti Hairfall Shampoo",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1771923717021-1559.png",
+    "score": 100,
+    "verified": true
+  },
+  "Dettol|Original Hand Wash": {
+    "brand": "Dettol",
+    "name": "Original Hand Wash",
+    "query": "Dettol Original Hand Wash",
+    "matched_name": "Dettol Original Hand Wash",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/9a62c64a-cf65-4c0d-83ac-6b59ae83ab26.png",
+    "score": 100,
+    "verified": true
+  },
+  "Gillette|Guard Razor": {
+    "brand": "Gillette",
+    "name": "Guard Razor",
+    "query": "Gillette Guard Razor",
+    "matched_name": "Gillette Guard 3 in 1 Men's Razor",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1775718265448-630.png",
+    "score": 100,
+    "verified": true
+  },
+  "Nivea|Soft Light Moisturiser": {
+    "brand": "Nivea",
+    "name": "Soft Light Moisturiser",
+    "query": "Nivea Soft Light Moisturiser",
+    "matched_name": "Nivea Soft Daily UV-Light Moisturizing Cream",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1779967902788-194.png",
+    "score": 73,
+    "verified": true
+  },
+  "Surf Excel|Easy Wash Detergent Powder": {
+    "brand": "Surf Excel",
+    "name": "Easy Wash Detergent Powder",
+    "query": "Surf Excel Easy Wash Detergent Powder",
+    "matched_name": "Surf Excel Easy Wash Detergent Powder",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/83ec4dd2-72f6-4c64-9a37-c38b32612db8.png",
+    "score": 100,
+    "verified": true
+  },
+  "Vim|Dishwash Liquid Lemon": {
+    "brand": "Vim",
+    "name": "Dishwash Liquid Lemon",
+    "query": "Vim dishwash",
+    "matched_name": "Vim Lemon Dishwash Gel",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1783062678774-216.png",
+    "score": 90,
+    "verified": true
+  },
+  "Harpic|Toilet Cleaner": {
+    "brand": "Harpic",
+    "name": "Toilet Cleaner",
+    "query": "Harpic Toilet Cleaner",
+    "matched_name": "Harpic Disinfectant Liquid Toilet Cleaner - (Original)",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1770705263225-1744.png",
+    "score": 100,
+    "verified": true
+  },
+  "Lizol|Citrus Disinfectant Floor Cleaner": {
+    "brand": "Lizol",
+    "name": "Citrus Disinfectant Floor Cleaner",
+    "query": "Lizol Citrus Disinfectant Floor Cleaner",
+    "matched_name": "Lizol Disinfectant Surface & Floor Cleaner",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/c99bc0c1-05cc-48e6-9d11-5f7b9b994d9f.png",
+    "score": 75,
+    "verified": true
+  },
+  "Odonil|Room Freshener Lavender": {
+    "brand": "Odonil",
+    "name": "Room Freshener Lavender",
+    "query": "Odonil Room Freshener Lavender",
+    "matched_name": "Odonil Lavender Mist Room Freshener (Lavender)",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/27428aef-0be6-4c77-8e17-1aa6f1ca5b54.png",
+    "score": 100,
+    "verified": true
+  },
+  "Fresho|Banana Robusta": {
+    "brand": "Fresho",
+    "name": "Banana Robusta",
+    "query": "Banana Robusta",
+    "matched_name": "Banana",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1781861811153-216.png",
+    "score": 100,
+    "verified": true
+  },
+  "Fresho|Onion": {
+    "brand": "Fresho",
+    "name": "Onion",
+    "query": "Onion",
+    "matched_name": "Onion (Pyaz)",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/f53c1ea1-cfa0-438b-a14c-b4f5ebeed7dd.png",
+    "score": 100,
+    "verified": true
+  },
+  "Fresho|Tomato Hybrid": {
+    "brand": "Fresho",
+    "name": "Tomato Hybrid",
+    "query": "Tomato Hybrid",
+    "matched_name": "Cherry Tomatoes",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/d5673d4f-5d68-4129-9181-e96152253570.png",
+    "score": 75,
+    "verified": true
+  },
+  "Fresho|Potato": {
+    "brand": "Fresho",
+    "name": "Potato",
+    "query": "Potato",
+    "matched_name": "Potato (Aloo)",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1779767007480-819.png",
+    "score": 100,
+    "verified": true
+  },
+  "Fresho|Apple Shimla": {
+    "brand": "Fresho",
+    "name": "Apple Shimla",
+    "query": "Apple Shimla",
+    "matched_name": "Granny Smith Apple - USA",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/04c10d29-5674-43b4-b20f-a9e89bb2f3fa.png",
+    "score": 75,
+    "verified": true
+  },
+  "Pampers|Baby Dry Diapers": {
+    "brand": "Pampers",
+    "name": "Baby Dry Diapers",
+    "query": "pampers premium care",
+    "matched_name": "Pampers Active Baby Taped Style Diaper",
+    "image": "https://cdn.zeptonow.com/production/ik-seo/tr:w-403,ar-1200-1200,pr-true,f-auto,q-40,dpr-2/cms/product_variant/81004ef7-3364-4fe2-8d6e-5e7bdbf7d773/Pampers-Active-Baby-Taped-Style-Diaper-S-92-pcs.jpeg",
+    "score": 90,
+    "verified": true,
+    "source": "Zepto"
+  },
+  "Johnson's|Baby Soap": {
+    "brand": "Johnson's",
+    "name": "Baby Soap",
+    "query": "Johnson's Baby Soap",
+    "matched_name": "Johnson's Blossoms Baby Soap",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1779095383481-211.png",
+    "score": 100,
+    "verified": true
+  },
+  "Nestle|Cerelac Wheat Apple": {
+    "brand": "Nestle",
+    "name": "Cerelac Wheat Apple",
+    "query": "cerelac baby cereal",
+    "matched_name": "Cerelac baby cereal",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/8ddce8e8-7768-4058-9b66-13fa33b6b370.png",
+    "score": 90,
+    "verified": true
+  },
+  "Britannia|Treat Jim Jam": {
+    "brand": "Britannia",
+    "name": "Treat Jim Jam",
+    "query": "Britannia Treat Jim Jam",
+    "matched_name": "Britannia Treat Jim Jam Sandwich Crème Biscuits",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1780033780141-91.png",
+    "score": 100,
+    "verified": true
+  },
+  "Sunfeast|Dark Fantasy Choco Fills": {
+    "brand": "Sunfeast",
+    "name": "Dark Fantasy Choco Fills",
+    "query": "Sunfeast Dark Fantasy Choco Fills",
+    "matched_name": "Sunfeast Dark Fantasy Choco Fills Chocolate Biscuit Pack",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1776224489956-633.png",
+    "score": 100,
+    "verified": true
+  },
+  "McCain|Smiles Potato": {
+    "brand": "McCain",
+    "name": "Smiles Potato",
+    "query": "mccain smiles potato",
+    "matched_name": "McCain Potato Cheese Nuggets Shotz",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1781494036001-1017.png",
+    "score": 67,
+    "verified": true
+  },
+  "ITC|Master Chef Frozen Peas": {
+    "brand": "ITC",
+    "name": "Master Chef Frozen Peas",
+    "query": "ITC master chef",
+    "matched_name": "ITC Master Chef Lebanese Falafel Veg Kebab",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1782107179512-66.png",
+    "score": 80,
+    "verified": true
+  },
+  "Amul|Masti Dahi": {
+    "brand": "Amul",
+    "name": "Masti Dahi",
+    "query": "Amul Masti Dahi",
+    "matched_name": "Amul Masti Pouch Curd",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/e7023096-622d-4e2e-9c2c-a7689262c36f.png",
+    "score": 85,
+    "verified": true
+  },
+  "Amul|Cheese Cubes": {
+    "brand": "Amul",
+    "name": "Cheese Cubes",
+    "query": "Amul Cheese Cubes",
+    "matched_name": "Amul Cheese Cubes",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/52377f0e-2ee1-4d3f-a0d6-f34934b71f0f.png",
+    "score": 100,
+    "verified": true
+  },
+  "Mother Dairy|Ghee": {
+    "brand": "Mother Dairy",
+    "name": "Ghee",
+    "query": "Mother Dairy Ghee",
+    "matched_name": "Mother Dairy Cow Ghee",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/810e9525-5968-497f-b2eb-619002b2cf61.png",
+    "score": 100,
+    "verified": true
+  },
+  "Britannia|Marie Gold": {
+    "brand": "Britannia",
+    "name": "Marie Gold",
+    "query": "Britannia Marie Gold",
+    "matched_name": "Britannia Milk Bikis Milky Sandwich Creme Biscuits",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/c86d970d-068d-4949-a1de-df3f379d973e.png",
+    "score": 64,
+    "verified": true
+  },
+  "Oreo|Chocolate Cream Biscuits": {
+    "brand": "Oreo",
+    "name": "Chocolate Cream Biscuits",
+    "query": "Oreo Chocolate Cream Biscuits",
+    "matched_name": "Oreo Chocolate Flavour Sandwich Cream Biscuits",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1782981462436-4.png",
+    "score": 100,
+    "verified": true
+  },
+  "Maggi|Masala-ae-Magic": {
+    "brand": "Maggi",
+    "name": "Masala-ae-Magic",
+    "query": "Maggi Masala-ae-Magic",
+    "matched_name": "Maggi Masala-ae-Magic Sabzi Masala",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1778470572131-1614.png",
+    "score": 100,
+    "verified": true
+  },
+  "Kissan|Mixed Fruit Jam": {
+    "brand": "Kissan",
+    "name": "Mixed Fruit Jam",
+    "query": "Kissan Mixed Fruit Jam",
+    "matched_name": "Kissan Mixed Fruit Jam (200 g)",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1778656176725-23.png",
+    "score": 100,
+    "verified": true
+  },
+  "Kellogg's|Chocos": {
+    "brand": "Kellogg's",
+    "name": "Chocos",
+    "query": "Kellogg's Chocos",
+    "matched_name": "Kellogg's Chocos Multigrain Moons & Stars Chocos",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1772127309007-28.png",
+    "score": 100,
+    "verified": true
+  },
+  "Saffola|Gold Refined Oil": {
+    "brand": "Saffola",
+    "name": "Gold Refined Oil",
+    "query": "saffola total",
+    "matched_name": "Saffola Gold Corn & Rice Bran Refined Blended Cooking Oil (1 ltr)",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/b3b025d5-7d23-4955-b2a9-b4471df66b29.png",
+    "score": 100,
+    "verified": true
+  },
+  "Daawat|Basmati Rice": {
+    "brand": "Daawat",
+    "name": "Basmati Rice",
+    "query": "Daawat Basmati Rice",
+    "matched_name": "Daawat Rozana-Super Basmati Rice (Medium Grain)",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/381e1978-2bbf-4aa4-9251-9111fad05e9b.png",
+    "score": 100,
+    "verified": true
+  },
+  "Everest|Garam Masala": {
+    "brand": "Everest",
+    "name": "Garam Masala",
+    "query": "Everest Garam Masala",
+    "matched_name": "Everest Garam Masala",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/63b36c14-e6a2-4c61-bf77-091b9b457c8a.png",
+    "score": 100,
+    "verified": true
+  },
+  "MDH|Chunky Chat Masala": {
+    "brand": "MDH",
+    "name": "Chunky Chat Masala",
+    "query": "MDH Chunky Chat Masala",
+    "matched_name": "MDH Chunky Chaat Masala",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/522389e0-a502-4c2d-83b0-ef3f49b846e2.png",
+    "score": 98,
+    "verified": true
+  },
+  "Patanjali|Dant Kanti Toothpaste": {
+    "brand": "Patanjali",
+    "name": "Dant Kanti Toothpaste",
+    "query": "Patanjali Dant Kanti Toothpaste",
+    "matched_name": "Patanjali Dant Kanti Herbal Toothpaste",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/31897d1a-b8e5-40c7-81c5-813ea9396a85.png",
+    "score": 100,
+    "verified": true
+  },
+  "Himalaya|Purifying Neem Face Wash": {
+    "brand": "Himalaya",
+    "name": "Purifying Neem Face Wash",
+    "query": "Himalaya Purifying Neem Face Wash",
+    "matched_name": "Himalaya Neem Face Pack",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/3d73731a-ce35-4987-8272-bf780b38fa6e.png",
+    "score": 73,
+    "verified": true
+  },
+  "Lakme|Sun Expert SPF 50": {
+    "brand": "Lakme",
+    "name": "Sun Expert SPF 50",
+    "query": "Lakme Sun Expert SPF 50",
+    "matched_name": "Lakme sun expert spf 50",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1774495305903-141.png",
+    "score": 100,
+    "verified": true
+  },
+  "Ponds|Light Moisturiser": {
+    "brand": "Ponds",
+    "name": "Light Moisturiser",
+    "query": "ponds light moisturizing cream",
+    "matched_name": "Pond's Light Moisturizing Cream (For Soft Skin)",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1776138991809-398.png",
+    "score": 95,
+    "verified": true
+  },
+  "Whisper|Ultra Clean Sanitary Pads": {
+    "brand": "Whisper",
+    "name": "Ultra Clean Sanitary Pads",
+    "query": "Whisper Ultra Clean Sanitary Pads",
+    "matched_name": "Whisper Ultra Clean Sanitary Pads (15 pieces)",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/1e21837d-a5fc-4b0f-a54f-e6c5e363cfd8.png",
+    "score": 100,
+    "verified": true
+  },
+  "Stayfree|Secure Cottony Soft": {
+    "brand": "Stayfree",
+    "name": "Secure Cottony Soft",
+    "query": "Stayfree Secure Cottony Soft",
+    "matched_name": "Stayfree Secure Cottony Soft Sanitary Pads",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1779788502450-248.png",
+    "score": 100,
+    "verified": true
+  },
+  "Comfort|Fabric Conditioner": {
+    "brand": "Comfort",
+    "name": "Fabric Conditioner",
+    "query": "Comfort Fabric Conditioner",
+    "matched_name": "Comfort After Wash Fabric Conditioner (Morning Fresh)",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1783062678774-94.png",
+    "score": 100,
+    "verified": true
+  },
+  "Rin|Detergent Bar": {
+    "brand": "Rin",
+    "name": "Detergent Bar",
+    "query": "Rin Detergent Bar",
+    "matched_name": "Rin Detergent Bar",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1781005834326-90.png",
+    "score": 100,
+    "verified": true
+  },
+  "Tide|Plus Detergent Powder": {
+    "brand": "Tide",
+    "name": "Plus Detergent Powder",
+    "query": "Tide Plus Detergent Powder",
+    "matched_name": "Tide Plus Detergent Powder Lemon & Mint",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1782363634419-260.png",
+    "score": 100,
+    "verified": true
+  },
+  "Godrej|Expert Rich Creme Hair Colour": {
+    "brand": "Godrej",
+    "name": "Expert Rich Creme Hair Colour",
+    "query": "Godrej Expert Rich Creme Hair Colour",
+    "matched_name": "Godrej Expert Rich Creme Hair Colour (Natural Brown)",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1777953701494-3061.png",
+    "score": 100,
+    "verified": true
+  },
+  "Parachute|Coconut Oil": {
+    "brand": "Parachute",
+    "name": "Coconut Oil",
+    "query": "Parachute Coconut Oil",
+    "matched_name": "Parachute 100% Pure Coconut Oil",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1778481639751-312.png",
+    "score": 100,
+    "verified": true
+  },
+  "Dabur|Honey": {
+    "brand": "Dabur",
+    "name": "Honey",
+    "query": "Dabur Honey",
+    "matched_name": "Dabur Honey (No Sugar Adulteration)",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/ef33b15a-3b65-4103-9d7d-0029b1ff1a4a.png",
+    "score": 100,
+    "verified": true
+  },
+  "Ching's|Schezwan Chutney": {
+    "brand": "Ching's",
+    "name": "Schezwan Chutney",
+    "query": "Ching's Schezwan Chutney",
+    "matched_name": "Ching's Secret Schezwan Chutney, Spread",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1779797396873-136.png",
+    "score": 100,
+    "verified": true
+  },
+  "Kikkoman|Soya Sauce": {
+    "brand": "Kikkoman",
+    "name": "Soya Sauce",
+    "query": "kikkoman soy sauce",
+    "matched_name": "Wok Tok by Veeba Red Chilli + Green Chilli + Soya Drizzle Sauce Combo",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1781005836247-178.png",
+    "score": 65,
+    "verified": true
+  },
+  "Heinz|Tomato Ketchup": {
+    "brand": "Heinz",
+    "name": "Tomato Ketchup",
+    "query": "Heinz Tomato Ketchup",
+    "matched_name": "Kissan Fresh Tomato Ketchup",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1778666794034-31.png",
+    "score": 65,
+    "verified": true
+  },
+  "Sprite|Lemon-Lime Drink": {
+    "brand": "Sprite",
+    "name": "Lemon-Lime Drink",
+    "query": "Sprite Lemon-Lime Drink",
+    "matched_name": "Sprite Lime Soft Drink (2 l)",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1770356946958-138.png",
+    "score": 70,
+    "verified": true
+  },
+  "Thums Up|Cola": {
+    "brand": "Thums Up",
+    "name": "Cola",
+    "query": "Thums Up Cola",
+    "matched_name": "Thums Up Cola Soft Drink (2 l)",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1770356946958-268.png",
+    "score": 100,
+    "verified": true
+  },
+  "Maaza|Mango Drink": {
+    "brand": "Maaza",
+    "name": "Mango Drink",
+    "query": "Maaza Mango Drink",
+    "matched_name": "Maaza Mango Drink 1.2 l",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/e17758c5-1a36-417a-85a0-be5eb0d1a7fb.png",
+    "score": 100,
+    "verified": true
+  },
+  "Paper Boat|Aamras": {
+    "brand": "Paper Boat",
+    "name": "Aamras",
+    "query": "Paper Boat Aamras",
+    "matched_name": "Paper Boat Aamras/ Mango Drink",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/4688337b-841a-46c4-a6dd-96c1b969c17e.png",
+    "score": 100,
+    "verified": true
+  },
+  "Bru|Instant Coffee": {
+    "brand": "Bru",
+    "name": "Instant Coffee",
+    "query": "Bru Instant Coffee",
+    "matched_name": "Bru Instant Coffee 50 g",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1783402223695-16.png",
+    "score": 100,
+    "verified": true
+  },
+  "Tetley|Green Tea": {
+    "brand": "Tetley",
+    "name": "Green Tea",
+    "query": "Tetley Green Tea",
+    "matched_name": "Tetley Lemon & Honey Green Tea Bags",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/80090bd0-3c8d-4ae6-91db-e14b5d2d9be8.png",
+    "score": 100,
+    "verified": true
+  },
+  "Fresho|Carrot Orange": {
+    "brand": "Fresho",
+    "name": "Carrot Orange",
+    "query": "Carrot Orange",
+    "matched_name": "Orange Carrot (Gajar)",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/00f0d26a-7b61-4e84-8903-abed0e2c4f69.png",
+    "score": 100,
+    "verified": true
+  },
+  "Fresho|Capsicum Green": {
+    "brand": "Fresho",
+    "name": "Capsicum Green",
+    "query": "Capsicum Green",
+    "matched_name": "Green Capsicum (Shimla Mirch)",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/0908a205-26bf-4135-969a-9002b302069c.png",
+    "score": 100,
+    "verified": true
+  },
+  "Fresho|Spinach": {
+    "brand": "Fresho",
+    "name": "Spinach",
+    "query": "Spinach",
+    "matched_name": "Cornitos Gourmet Spinach Nachos (Italian Spice Mix)",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1775916342710-82.png",
+    "score": 100,
+    "verified": true
+  },
+  "Fresho|Coriander Leaves": {
+    "brand": "Fresho",
+    "name": "Coriander Leaves",
+    "query": "Fresho Coriander Leaves",
+    "matched_name": "iD Fresh Coriander Chutney",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/772130dd-f239-4970-b650-b11bfd24fa52.png",
+    "score": 76,
+    "verified": true
+  },
+  "Fresho|Ginger": {
+    "brand": "Fresho",
+    "name": "Ginger",
+    "query": "Ginger",
+    "matched_name": "Ginger (Adrak)",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/e7c9461c-4a81-46cc-8215-5f9155026a6e.png",
+    "score": 100,
+    "verified": true
+  },
+  "Fresho|Garlic": {
+    "brand": "Fresho",
+    "name": "Garlic",
+    "query": "Garlic",
+    "matched_name": "Garlic (Lehsun)",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/4fcbc1fe-5a04-465f-9558-7ea73e9f8b1f.png",
+    "score": 100,
+    "verified": true
+  },
+  "Fresho|Lemon": {
+    "brand": "Fresho",
+    "name": "Lemon",
+    "query": "Lemon",
+    "matched_name": "Organically Grown Lemon",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/2caf53dc-1175-4335-b282-bb109e6bee89.png",
+    "score": 100,
+    "verified": true
+  },
+  "Fresho|Mango Alphonso": {
+    "brand": "Fresho",
+    "name": "Mango Alphonso",
+    "query": "Mango Alphonso",
+    "matched_name": "Epigamia Alphonso Mango Flavoured Greek Yogurt",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/8060b52d-2232-4e13-9b31-b5423ef6cadc.png",
+    "score": 100,
+    "verified": true
+  },
+  "Fresho|Pomegranate": {
+    "brand": "Fresho",
+    "name": "Pomegranate",
+    "query": "Pomegranate",
+    "matched_name": "Real Activ Pomegranate Juice",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/6606e917-e8e6-4668-89a1-29434d871a1f.png",
+    "score": 100,
+    "verified": true
+  },
+  "Fresho|Broccoli": {
+    "brand": "Fresho",
+    "name": "Broccoli",
+    "query": "Fresho Broccoli",
+    "matched_name": "Broccoli",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/079cdbf5-0e6e-4de4-ad0a-447e56ae8016.png",
+    "score": 65,
+    "verified": true
+  },
+  "Fresho|Mushroom Button": {
+    "brand": "Fresho",
+    "name": "Mushroom Button",
+    "query": "button mushroom",
+    "matched_name": "Button Mushroom",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/9bc0b3fd-3aac-4f5f-a8f7-0c0b63cef1bb.png",
+    "score": 100,
+    "verified": true
+  },
+  "Pedigree|Adult Dog Food": {
+    "brand": "Pedigree",
+    "name": "Adult Dog Food",
+    "query": "Pedigree Adult Dog Food",
+    "matched_name": "Pedigree Adult Dry Dog Food - Chicken & Vegetables",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1771819828195-316.png",
+    "score": 100,
+    "verified": true
+  },
+  "Whiskas|Adult Cat Food": {
+    "brand": "Whiskas",
+    "name": "Adult Cat Food",
+    "query": "Whiskas Adult Cat Food",
+    "matched_name": "Whiskas Adult Dry Cat Food -Ocean Fish Flavour (1+ Years)",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1772510709004-193.png",
+    "score": 100,
+    "verified": true
+  },
+  "Durex|Extra Time Condoms": {
+    "brand": "Durex",
+    "name": "Extra Time Condoms",
+    "query": "Durex Extra Time Condoms",
+    "matched_name": "Durex Extra Time Longer Lasting Condom",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1781753420362-412.png",
+    "score": 86,
+    "verified": true
+  },
+  "Himalaya|Ashvagandha Tablets": {
+    "brand": "Himalaya",
+    "name": "Ashvagandha Tablets",
+    "query": "Himalaya Ashvagandha Tablets",
+    "matched_name": "Himalaya General Wellness Ashwagandha Tablets",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1782710036332-6.png",
+    "score": 64,
+    "verified": true
+  },
+  "Protinex|Original Health Supplement": {
+    "brand": "Protinex",
+    "name": "Original Health Supplement",
+    "query": "Protinex Health Supplement",
+    "matched_name": "Protinex Adults Original Drink Mix",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/255f75c3-6fb7-4bca-81c5-a0f027f5038d.png",
+    "score": 69,
+    "verified": true
+  },
+  "Harpic|Power Plus 10x": {
+    "brand": "Harpic",
+    "name": "Power Plus 10x",
+    "query": "Harpic Power Plus 10x",
+    "matched_name": "Harpic Fresh Power 6 Toilet Cleaner Block (Floral Delight)",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/d7551a64-b8fb-4448-a42c-0f494a93877b.png",
+    "score": 73,
+    "verified": true
+  },
+  "Scotch Brite|Scrub Pad": {
+    "brand": "Scotch Brite",
+    "name": "Scrub Pad",
+    "query": "Scotch Brite Scrub Pad",
+    "matched_name": "Scotch Brite Silver Sparks Scrub Pad (Regular)",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/e3e45295-ede4-4cdc-9a77-4dbd464a1703.png",
+    "score": 100,
+    "verified": true
+  },
+  "Milton|Stainless Steel Bottle": {
+    "brand": "Milton",
+    "name": "Stainless Steel Bottle",
+    "query": "Milton stainless steel",
+    "matched_name": "Milton Stainless Steel Casserole (Ivory)",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/f13d62a4-66e7-4017-94c5-8dd57524b487.png",
+    "score": 88,
+    "verified": true
+  },
+  "Prestige|Non-Stick Tawa": {
+    "brand": "Prestige",
+    "name": "Non-Stick Tawa",
+    "query": "prestige roti tawa",
+    "matched_name": "Prestige Omega Granite Non-stick Omni Tawa (Aluminium)",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1778652879489-547.png",
+    "score": 100,
+    "verified": true
+  },
+  "Philips|LED Bulb 9W": {
+    "brand": "Philips",
+    "name": "LED Bulb 9W",
+    "query": "Philips LED Bulb 9W",
+    "matched_name": "Philips Lighting 9 W LED Bulb (Crystal White)",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/8cd9915d-0806-43d1-a225-0a624f261e71.png",
+    "score": 91,
+    "verified": true
+  },
+  "Duracell|AA Batteries": {
+    "brand": "Duracell",
+    "name": "AA Batteries",
+    "query": "Duracell AA Batteries",
+    "matched_name": "Duracell AA Alkaline Battery",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/c389b423-f472-43d7-a7c3-ea1266508f03.png",
+    "score": 64,
+    "verified": true
+  },
+  "Amul|Spray Cream": {
+    "brand": "Amul",
+    "name": "Spray Cream",
+    "query": "Amul Spray Cream",
+    "matched_name": "Amul Sour Cream",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/1bc013ed-28ad-4b13-87d1-cdb620ccd18c.png",
+    "score": 72,
+    "verified": true
+  },
+  "Amul|Milkshake Kool Koko": {
+    "brand": "Amul",
+    "name": "Milkshake Kool Koko",
+    "query": "Amul Milkshake Kool Koko",
+    "matched_name": "Amul Kool Mango Milkshake",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/8f9079ad-7d8f-4211-86bb-5177df6a7599.png",
+    "score": 88,
+    "verified": true
+  },
+  "Amul|Probiotic Lassi": {
+    "brand": "Amul",
+    "name": "Probiotic Lassi",
+    "query": "Amul Probiotic Lassi",
+    "matched_name": "Amul Sweet Lassi",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/b4a29aa1-1585-451e-afee-130cd0c29849.png",
+    "score": 65,
+    "verified": true
+  },
+  "Amul|Shrikhand Elaichi": {
+    "brand": "Amul",
+    "name": "Shrikhand Elaichi",
+    "query": "Amul Shrikhand Elaichi",
+    "matched_name": "Amul Elaichi Shrikhand",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/1b709d0d-cb21-49e6-bd69-9b5770b1b7ab.png",
+    "score": 100,
+    "verified": true
+  },
+  "Amul|Fresh Cream": {
+    "brand": "Amul",
+    "name": "Fresh Cream",
+    "query": "Amul fresh",
+    "matched_name": "Amul Fresh Malai Paneer",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/7a1700ee-dd38-49cf-b34e-171ff84ac0e7.png",
+    "score": 86,
+    "verified": true
+  },
+  "Mother Dairy|Mishti Doi": {
+    "brand": "Mother Dairy",
+    "name": "Mishti Doi",
+    "query": "Mother Dairy Mishti Doi",
+    "matched_name": "Mother Dairy Mishti Doi",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1774519548008-466.png",
+    "score": 100,
+    "verified": true
+  },
+  "Mother Dairy|Flavoured Milk Badam": {
+    "brand": "Mother Dairy",
+    "name": "Flavoured Milk Badam",
+    "query": "Mother Dairy Flavoured Milk Badam",
+    "matched_name": "Mother Dairy Badam Flavoured Milk",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1780909545360-132.png",
+    "score": 100,
+    "verified": true
+  },
+  "Mother Dairy|Cow Ghee": {
+    "brand": "Mother Dairy",
+    "name": "Cow Ghee",
+    "query": "Mother Dairy Cow Ghee",
+    "matched_name": "Mother Dairy Pure Cow Ghee",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/08290971-0120-4bb2-8b93-0813295ad279.png",
+    "score": 100,
+    "verified": true
+  },
+  "Britannia|NutriChoice Digestive": {
+    "brand": "Britannia",
+    "name": "NutriChoice Digestive",
+    "query": "Britannia NutriChoice Digestive",
+    "matched_name": "Britannia NutriChoice 5 Grain Digestive Biscuit",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/c9f8577d-efb4-42d5-add0-35af6ad89fd3.png",
+    "score": 100,
+    "verified": true
+  },
+  "Britannia|Milk Bikis": {
+    "brand": "Britannia",
+    "name": "Milk Bikis",
+    "query": "Britannia Milk Bikis",
+    "matched_name": "Britannia Milk Bikis Milky Sandwich Creme Biscuits",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/c86d970d-068d-4949-a1de-df3f379d973e.png",
+    "score": 100,
+    "verified": true
+  },
+  "Britannia|50-50 Sweet & Salty": {
+    "brand": "Britannia",
+    "name": "50-50 Sweet & Salty",
+    "query": "Britannia 50-50 Sweet & Salty",
+    "matched_name": "Britannia 5050 sweet and salty biscuit",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1775226565260-304.png",
+    "score": 81,
+    "verified": true
+  },
+  "Britannia|Little Hearts": {
+    "brand": "Britannia",
+    "name": "Little Hearts",
+    "query": "Britannia Little Hearts",
+    "matched_name": "Britannia Little Hearts Classic Crunch Biscuit",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1777632215013-257.png",
+    "score": 100,
+    "verified": true
+  },
+  "Nestle|Munch Nuts": {
+    "brand": "Nestle",
+    "name": "Munch Nuts",
+    "query": "Nestle Munch Nuts",
+    "matched_name": "Nestle Munch Bites Coated Crunchy Wafer Bars",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1778041512384-100.png",
+    "score": 87,
+    "verified": true
+  },
+  "Nestle|KitKat 4 Finger": {
+    "brand": "Nestle",
+    "name": "KitKat 4 Finger",
+    "query": "Nestle KitKat 4 Finger",
+    "matched_name": "Nestle KitKat 4 Fingers Choco Coated Wafer Bar - Pack of 2",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1779345396480-6.png",
+    "score": 100,
+    "verified": true
+  },
+  "Nestle|Milkybar": {
+    "brand": "Nestle",
+    "name": "Milkybar",
+    "query": "Nestle Milkybar",
+    "matched_name": "Nestle Milkybar Creamy Milky Treat",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1782790536049-1674.png",
+    "score": 100,
+    "verified": true
+  },
+  "Cadbury|5 Star": {
+    "brand": "Cadbury",
+    "name": "5 Star",
+    "query": "Cadbury 5 Star",
+    "matched_name": "Cadbury 5 Star Chocolate Filled Bar",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1779788502450-197.png",
+    "score": 100,
+    "verified": true
+  },
+  "Cadbury|Perk": {
+    "brand": "Cadbury",
+    "name": "Perk",
+    "query": "Cadbury Perk",
+    "matched_name": "Cadbury Perk Plus Coated Wafer Chocolate Bar - Pack of 3",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1771600886677-1183.png",
+    "score": 100,
+    "verified": true
+  },
+  "Cadbury|Gems": {
+    "brand": "Cadbury",
+    "name": "Gems",
+    "query": "Cadbury Gems",
+    "matched_name": "Cadbury Gems Duo Chocolates Pack",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1782790536049-1484.png",
+    "score": 100,
+    "verified": true
+  },
+  "Ferrero|Rocher 3 Pcs": {
+    "brand": "Ferrero",
+    "name": "Rocher 3 Pcs",
+    "query": "Ferrero Rocher 3 Pcs",
+    "matched_name": "Ferrero Rocher Chocolate Gift Pack (4 pieces)",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1776656742804-880.png",
+    "score": 89,
+    "verified": true
+  },
+  "Lotte|Choco Pie": {
+    "brand": "Lotte",
+    "name": "Choco Pie",
+    "query": "Lotte Choco Pie",
+    "matched_name": "Lotte Choco Pie - Choco Burst",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/45306b62-d8c7-4d20-b470-5f6358794ae2.png",
+    "score": 100,
+    "verified": true
+  },
+  "Haldiram's|Aloo Bhujia": {
+    "brand": "Haldiram's",
+    "name": "Aloo Bhujia",
+    "query": "Haldiram's Aloo Bhujia",
+    "matched_name": "Haldiram's Aloo Bhujia",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1777953701494-8474.png",
+    "score": 100,
+    "verified": true
+  },
+  "Haldiram's|Moong Dal": {
+    "brand": "Haldiram's",
+    "name": "Moong Dal",
+    "query": "Haldiram's Moong Dal",
+    "matched_name": "Haldiram's Moong Dal Namkeen",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/716290f6-2028-405b-a7eb-256c84261baa.png",
+    "score": 100,
+    "verified": true
+  },
+  "Haldiram's|Punjabi Tadka": {
+    "brand": "Haldiram's",
+    "name": "Punjabi Tadka",
+    "query": "Haldiram's Punjabi Tadka",
+    "matched_name": "Haldiram's Punjabi Tadka Namkeen Snacks",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/6311692b-204d-4786-ab8c-3af729b039ac.png",
+    "score": 100,
+    "verified": true
+  },
+  "Bikaji|All In One": {
+    "brand": "Bikaji",
+    "name": "All In One",
+    "query": "Bikaji all in",
+    "matched_name": "Bikaji All in One Kuch Kuch Mixture Namkeen - Pack of 2",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1777953701494-16207.png",
+    "score": 100,
+    "verified": true
+  },
+  "Bikaji|Bikaneri Bhujia": {
+    "brand": "Bikaji",
+    "name": "Bikaneri Bhujia",
+    "query": "Bikaji Bikaneri Bhujia",
+    "matched_name": "Bikaji Bikaneri Bhujia",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1777953701494-8666.png",
+    "score": 100,
+    "verified": true
+  },
+  "Pringles|Original": {
+    "brand": "Pringles",
+    "name": "Original",
+    "query": "Pringles Original",
+    "matched_name": "Pringles Original Potato Chips - Crispy Snack",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1783488455000-337.png",
+    "score": 100,
+    "verified": true
+  },
+  "Doritos|Nacho Cheese": {
+    "brand": "Doritos",
+    "name": "Nacho Cheese",
+    "query": "Doritos Nacho Cheese",
+    "matched_name": "Doritos Cheese Nachos",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1781075086335-194.png",
+    "score": 98,
+    "verified": true
+  },
+  "Cheetos|Masala Balls": {
+    "brand": "Cheetos",
+    "name": "Masala Balls",
+    "query": "Cheetos Masala Balls",
+    "matched_name": "Cheetos Crisps (Masala Balls)",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1781603247372-358.png",
+    "score": 100,
+    "verified": true
+  },
+  "Too Yumm|Karela Chips": {
+    "brand": "Too Yumm",
+    "name": "Karela Chips",
+    "query": "Too Yumm Karela Chips",
+    "matched_name": "Too Yumm Classic Salted Banana Chips (No Palm Oil)",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1777963876863-489.png",
+    "score": 68,
+    "verified": true
+  },
+  "Lay's|American Style Cream & Onion": {
+    "brand": "Lay's",
+    "name": "American Style Cream & Onion",
+    "query": "Lay's American Style Cream & Onion",
+    "matched_name": "Lay's American Style Cream & Onion Potato Chips",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1776398906000-173.png",
+    "score": 100,
+    "verified": true
+  },
+  "Sprite|Zero Sugar": {
+    "brand": "Sprite",
+    "name": "Zero Sugar",
+    "query": "Sprite Zero Sugar",
+    "matched_name": "Sprite Zero Sugar Soft Drink",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/08bde18a-b1e8-40bb-bb18-362c3b4163ad.png",
+    "score": 100,
+    "verified": true
+  },
+  "Fanta|Orange": {
+    "brand": "Fanta",
+    "name": "Orange",
+    "query": "Fanta Orange",
+    "matched_name": "Fanta Orange Soft Drink",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1770356946958-247.png",
+    "score": 100,
+    "verified": true
+  },
+  "Limca|Lemon Drink": {
+    "brand": "Limca",
+    "name": "Lemon Drink",
+    "query": "Limca Lemon Drink",
+    "matched_name": "Limca Lemon 'N' Lime Soft Drink 750 ml",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1782704175232-338.png",
+    "score": 100,
+    "verified": true
+  },
+  "Appy|Fizz": {
+    "brand": "Appy",
+    "name": "Fizz",
+    "query": "Appy Fizz",
+    "matched_name": "Appy Fizz Sparkling Drink (Apple Flavoured)",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/ccfce5a7-71da-489a-b06b-cb6506324ef2.png",
+    "score": 100,
+    "verified": true
+  },
+  "Tropicana|Orange Delight": {
+    "brand": "Tropicana",
+    "name": "Orange Delight",
+    "query": "Tropicana Orange Delight",
+    "matched_name": "Tropicana Orange Delight Juice",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/b329dcb8-edd2-406a-9575-40ef17b663ac.png",
+    "score": 100,
+    "verified": true
+  },
+  "Minute Maid|Pulpy Orange": {
+    "brand": "Minute Maid",
+    "name": "Pulpy Orange",
+    "query": "Minute Maid Pulpy Orange",
+    "score": 0,
+    "verified": false,
+    "candidates": [
+      "Paper Boat Swing Lively Orange Juice",
+      "Minute Maid Mixed Fruit Juice",
+      "Frooti Mango Drink",
+      "Out of Stock",
+      "Maaza Mango Drink 600 ml",
+      "Paper Boat Zero Sugar Lemon Lime Sparkling Drink"
+    ]
+  },
+  "Raw Pressery|Cold Pressed Orange": {
+    "brand": "Raw Pressery",
+    "name": "Cold Pressed Orange",
+    "query": "Raw Pressery cold",
+    "matched_name": "Raw Pressery Cold Coffee Protein Milkshake",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/fb5056ef60ce42d9a1f9617763e8b38d.png",
+    "score": 75,
+    "verified": true
+  },
+  "B Natural|Mixed Fruit": {
+    "brand": "B Natural",
+    "name": "Mixed Fruit",
+    "query": "B Natural Mixed Fruit",
+    "matched_name": "B Natural Mixed Fruit Juice Rich in Vitamic C & E",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1774324367853-40.png",
+    "score": 100,
+    "verified": true
+  },
+  "Kinley|Packaged Water": {
+    "brand": "Kinley",
+    "name": "Packaged Water",
+    "query": "Kinley Packaged Water",
+    "matched_name": "Kinley Packaged Water",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1781494036001-464.png",
+    "score": 100,
+    "verified": true
+  },
+  "Aquafina|Packaged Water": {
+    "brand": "Aquafina",
+    "name": "Packaged Water",
+    "query": "Aquafina Packaged Water",
+    "matched_name": "Aquafina Packaged Water",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/b343c33b-9443-4455-970c-000f8d84608e.png",
+    "score": 100,
+    "verified": true
+  },
+  "Red Label|Natural Care Tea": {
+    "brand": "Red Label",
+    "name": "Natural Care Tea",
+    "query": "Red Label Natural Care Tea",
+    "matched_name": "Brooke Bond Red Label Natural Care Tea",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1778758335441-619.png",
+    "score": 100,
+    "verified": true
+  },
+  "Brooke Bond|Taj Mahal Tea": {
+    "brand": "Brooke Bond",
+    "name": "Taj Mahal Tea",
+    "query": "Brooke Bond Taj Mahal Tea",
+    "matched_name": "Brooke Bond Taj Mahal Tea",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1781463447011-17.png",
+    "score": 100,
+    "verified": true
+  },
+  "Davidoff|Instant Coffee": {
+    "brand": "Davidoff",
+    "name": "Instant Coffee",
+    "query": "Davidoff Instant Coffee",
+    "matched_name": "Davidoff Rich Aroma Instant Coffee 10/12 Intensity",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/72cb7953-5370-4c8e-9eb9-04a3f804ac63.png",
+    "score": 100,
+    "verified": true
+  },
+  "Continental|Xtra Strong Coffee": {
+    "brand": "Continental",
+    "name": "Xtra Strong Coffee",
+    "query": "Continental Xtra Strong Coffee",
+    "matched_name": "Continental Xtra Instant Coffee",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/8092801e-73c2-43aa-829b-061d85b05749.png",
+    "score": 89,
+    "verified": true
+  },
+  "Monster|Energy Drink": {
+    "brand": "Monster",
+    "name": "Energy Drink",
+    "query": "Monster Energy Drink",
+    "matched_name": "Monster Zero Sugar Ultra Energy Drink",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/efede8e8-222c-4bf0-a319-d885301e0b0a.png",
+    "score": 100,
+    "verified": true
+  },
+  "Sting|Energy Drink": {
+    "brand": "Sting",
+    "name": "Energy Drink",
+    "query": "Sting energy",
+    "matched_name": "Sting Energy Drink 250 ml",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/a5b7e972-ec13-4a69-a033-0d0114f42353.png",
+    "score": 100,
+    "verified": true
+  },
+  "Patanjali|Cow Ghee": {
+    "brand": "Patanjali",
+    "name": "Cow Ghee",
+    "query": "Patanjali cow",
+    "matched_name": "Cow Dung by Patanjali",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/9b9ec898-698f-432c-82e5-6e3ddad20f66.png",
+    "score": 72,
+    "verified": true
+  },
+  "Organic Tattva|Brown Rice": {
+    "brand": "Organic Tattva",
+    "name": "Brown Rice",
+    "query": "Organic Tattva Brown Rice",
+    "matched_name": "Organic Tattva Brown Organic Sonamasuri Rice",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/d4a51748-9641-4e56-8f34-9e0a3e26e1f0.png",
+    "score": 100,
+    "verified": true
+  },
+  "24 Mantra|Sonamasuri Rice": {
+    "brand": "24 Mantra",
+    "name": "Sonamasuri Rice",
+    "query": "24 Mantra Sonamasuri Rice",
+    "score": 0,
+    "verified": false,
+    "candidates": [
+      "24 Mantra Organic White Sonamasuri Rice",
+      "24 Mantra Organic White Sonamasuri Rice",
+      "24 Mantra Organic Brown Sonamasuri Rice",
+      "24 Mantra Organic Brown Sonamasuri Rice",
+      "Whole Farm Grocery Raw Sonamasuri Rice (6-12 Months) (Medium Grain)",
+      "Whole Farm Grocery Raw Sonamasuri Rice (6-12 Months) (Medium Grain)"
+    ]
+  },
+  "Kohinoor|Basmati Rice": {
+    "brand": "Kohinoor",
+    "name": "Basmati Rice",
+    "query": "Kohinoor Basmati Rice",
+    "matched_name": "Kohinoor Super Value Basmati Rice (Extra Long Grain)",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/5b663103-53bd-4eb0-bad3-bb157c7a65a5.png",
+    "score": 100,
+    "verified": true
+  },
+  "Pillsbury|Chakki Fresh Atta": {
+    "brand": "Pillsbury",
+    "name": "Chakki Fresh Atta",
+    "query": "Pillsbury Chakki Fresh Atta",
+    "matched_name": "Pillsbury Fresh Superior-Quality Chakki Atta (100% atta, 0% Maida)",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1777444117565-18.png",
+    "score": 100,
+    "verified": true
+  },
+  "Nature Fresh|Refined Sunflower Oil": {
+    "brand": "Nature Fresh",
+    "name": "Refined Sunflower Oil",
+    "query": "Nature Fresh Refined Sunflower Oil",
+    "matched_name": "Nature Fresh Refined Soyabean Oil",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/7b1c5a2e-3469-460d-b2c6-0d9dd5f72a36.png",
+    "score": 84,
+    "verified": true
+  },
+  "Dhara|Mustard Oil": {
+    "brand": "Dhara",
+    "name": "Mustard Oil",
+    "query": "Dhara Mustard Oil",
+    "matched_name": "Dhara Kachi Ghani Mustard Oil (0% Trans Fat)",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/565ec0f2-7b3e-48c0-96a4-9887cb6a4c0f.png",
+    "score": 100,
+    "verified": true
+  },
+  "Tata|Sampann Moong Dal": {
+    "brand": "Tata",
+    "name": "Sampann Moong Dal",
+    "query": "Tata Sampann Moong Dal",
+    "matched_name": "Tata Sampann Unpolished Moong Dal (Dhuli) Split",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/d0799cef-246f-4750-a878-49f893403c2c.png",
+    "score": 100,
+    "verified": true
+  },
+  "Tata|Sampann Masoor Dal": {
+    "brand": "Tata",
+    "name": "Sampann Masoor Dal",
+    "query": "Tata Sampann Masoor Dal",
+    "matched_name": "Tata Sampann Masoor Dal Unpolished",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/5ab30407-b8ae-4524-824c-d75c0da32020.png",
+    "score": 100,
+    "verified": true
+  },
+  "Organic India|Quinoa": {
+    "brand": "Organic India",
+    "name": "Quinoa",
+    "query": "Organic India Quinoa",
+    "matched_name": "Organic India - Organic Quinoa",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/f7a446dc-4733-4f5d-8c39-67ccf14d76e1.png",
+    "score": 100,
+    "verified": true
+  },
+  "Quaker|Oats": {
+    "brand": "Quaker",
+    "name": "Oats",
+    "query": "Quaker Oats",
+    "matched_name": "Quaker Rolled Instant Oats",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1780372030572-386.png",
+    "score": 100,
+    "verified": true
+  },
+  "Saffola|Masala Oats": {
+    "brand": "Saffola",
+    "name": "Masala Oats",
+    "query": "Saffola Masala Oats",
+    "matched_name": "Saffola Classic-Masala Oats",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1779702172667-365.png",
+    "score": 100,
+    "verified": true
+  },
+  "MTR|Rava Idli Mix": {
+    "brand": "MTR",
+    "name": "Rava Idli Mix",
+    "query": "MTR Rava Idli Mix",
+    "matched_name": "MTR Rava Idli Breakfast Mix",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1770195887273-71.png",
+    "score": 100,
+    "verified": true
+  },
+  "Gits|Gulab Jamun Mix": {
+    "brand": "Gits",
+    "name": "Gulab Jamun Mix",
+    "query": "Gits Gulab Jamun Mix",
+    "matched_name": "Gits Gulab Jamun Mix",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/e81534d6-48f0-40cd-b668-c77561260d94.png",
+    "score": 100,
+    "verified": true
+  },
+  "Yippee|Magic Masala Noodles": {
+    "brand": "Yippee",
+    "name": "Magic Masala Noodles",
+    "query": "Yippee Magic Masala Noodles",
+    "matched_name": "Yippee Magic Masala Instant Noodles with Added Veggies",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1775218772831-6.png",
+    "score": 100,
+    "verified": true
+  },
+  "Top Ramen|Curry Noodles": {
+    "brand": "Top Ramen",
+    "name": "Curry Noodles",
+    "query": "Top Ramen Curry Noodles",
+    "matched_name": "Top Ramen Curry Veg Noodles",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1771305481383-1049.png",
+    "score": 100,
+    "verified": true
+  },
+  "Ching's|Hakka Noodles": {
+    "brand": "Ching's",
+    "name": "Hakka Noodles",
+    "query": "Ching's Hakka Noodles",
+    "matched_name": "Ching's Secret Whole Wheat Zero Maida Noodles",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1771305481383-6121.png",
+    "score": 71,
+    "verified": true
+  },
+  "Kikkoman|Teriyaki Sauce": {
+    "brand": "Kikkoman",
+    "name": "Teriyaki Sauce",
+    "query": "Kikkoman Teriyaki Sauce",
+    "matched_name": "Kikkoman Ponzu Citrus Seasoned Dressing & Sauce",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/7afcd8b9-d19e-45fa-b634-4453116a89e3.png",
+    "score": 64,
+    "verified": true
+  },
+  "Veeba|Mayonnaise": {
+    "brand": "Veeba",
+    "name": "Mayonnaise",
+    "query": "Veeba Mayonnaise",
+    "matched_name": "Veeba Chef's Choice Veg Mayonnaise",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1781005836247-79.png",
+    "score": 100,
+    "verified": true
+  },
+  "Kissan|Tomato Ketchup No Onion Garlic": {
+    "brand": "Kissan",
+    "name": "Tomato Ketchup No Onion Garlic",
+    "query": "Kissan Tomato Ketchup No Onion Garlic",
+    "matched_name": "Kissan Tomato Ketchup (No Onion & Garlic) - Doy Pack",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1773396100077-299.png",
+    "score": 100,
+    "verified": true
+  },
+  "Tabasco|Red Pepper Sauce": {
+    "brand": "Tabasco",
+    "name": "Red Pepper Sauce",
+    "query": "Tabasco Red Pepper Sauce",
+    "matched_name": "Tabasco Chilli Sauce Gift Box",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/386ab7c6-a19e-4c7d-82a9-d1bfc5bac16f.png",
+    "score": 58,
+    "verified": true
+  },
+  "Catch|Black Salt": {
+    "brand": "Catch",
+    "name": "Black Salt",
+    "query": "Catch Black Salt",
+    "matched_name": "Catch Sprinklers - Black Salt (Kala Namak)",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1783616267372-19.png",
+    "score": 100,
+    "verified": true
+  },
+  "Catch|Red Chilli Powder": {
+    "brand": "Catch",
+    "name": "Red Chilli Powder",
+    "query": "Catch Red Chilli Powder",
+    "matched_name": "Catch Red Chilli Powder",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1771991783673-971.png",
+    "score": 100,
+    "verified": true
+  },
+  "Badshah|Pav Bhaji Masala": {
+    "brand": "Badshah",
+    "name": "Pav Bhaji Masala",
+    "query": "Badshah Pav Bhaji Masala",
+    "matched_name": "Badshah Pav Bhaji Masala",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/3f502b23-0e3e-4088-80c0-c72eeebe1291.png",
+    "score": 100,
+    "verified": true
+  },
+  "Keya|Italian Seasoning": {
+    "brand": "Keya",
+    "name": "Italian Seasoning",
+    "query": "Keya Italian Seasoning",
+    "matched_name": "Keya Italian Seasoning",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/9fd25a66-d042-4e89-8e89-c2bba526a503.png",
+    "score": 100,
+    "verified": true
+  },
+  "Oral-B|Pro Health Toothpaste": {
+    "brand": "Oral-B",
+    "name": "Pro Health Toothpaste",
+    "query": "Oral-B Pro Health Toothpaste",
+    "score": 0,
+    "verified": false,
+    "candidates": [
+      "Colgate Total Advanced Health Toothpaste",
+      "Colgate Total Advanced Health Anti-Germ Toothpaste with Toothbrush",
+      "Colgate Total Advanced Health Antibacterial Toothpaste",
+      "Colgate Total Sensitive Antibacterial Toothpaste",
+      "Parodontax Ultra Clean Expert Gum Care Toothpaste",
+      "Oral-B Pro Clean Sensitive & Gums Toothbrush Extra Soft, Colour may Vary"
+    ]
+  },
+  "Sensodyne|Repair & Protect": {
+    "brand": "Sensodyne",
+    "name": "Repair & Protect",
+    "query": "Sensodyne Repair & Protect",
+    "matched_name": "Sensodyne Repair & Protect Sensitive Toothpaste",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/baab2d1f-7e07-4113-b9b7-19e11ace7a4b.png",
+    "score": 100,
+    "verified": true
+  },
+  "Pepsodent|Germicheck": {
+    "brand": "Pepsodent",
+    "name": "Germicheck",
+    "query": "Pepsodent Germicheck",
+    "matched_name": "Pepsodent Germicheck 8 Actions Toothpaste",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/aea01198-69f6-4b4b-a230-2d22f88bc383.png",
+    "score": 100,
+    "verified": true
+  },
+  "Closeup|Ever Fresh Gel": {
+    "brand": "Closeup",
+    "name": "Ever Fresh Gel",
+    "query": "Closeup Ever Fresh Gel",
+    "matched_name": "Closeup Everfresh+ Gel Toothpaste (Red Hot)",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/043b35eb-c955-4263-abb9-e91818ee70a9.png",
+    "score": 86,
+    "verified": true
+  },
+  "Lux|Soft Touch Soap": {
+    "brand": "Lux",
+    "name": "Soft Touch Soap",
+    "query": "Lux Soft Touch Soap",
+    "score": 0,
+    "verified": false,
+    "candidates": [
+      "Lux Natural Glow Soap Mega Pack",
+      "Lux Jasmine & Vitamin E Beauty Soap Mega Pack 3 x 150 g",
+      "Lux International Smooth & Radiant Soap",
+      "Pears Pure & Gentle Soap",
+      "Lux Radiant Glow Rose Soap",
+      "Mysore Sandal Soap 75 g"
+    ]
+  },
+  "Lifebuoy|Total 10 Soap": {
+    "brand": "Lifebuoy",
+    "name": "Total 10 Soap",
+    "query": "Lifebuoy Total 10 Soap",
+    "matched_name": "Lifebuoy total 10 soap",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/cb64f7b2-1251-4b73-98c9-bcfb43bfdb2b.png",
+    "score": 100,
+    "verified": true
+  },
+  "Pears|Pure & Gentle": {
+    "brand": "Pears",
+    "name": "Pure & Gentle",
+    "query": "Pears Pure & Gentle",
+    "matched_name": "Pears Pure And Gentle Body Wash",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1777534555736-95.png",
+    "score": 100,
+    "verified": true
+  },
+  "Santoor|Sandal & Turmeric": {
+    "brand": "Santoor",
+    "name": "Sandal & Turmeric",
+    "query": "Santoor Sandal & Turmeric",
+    "matched_name": "Santoor Royal Sandal Soap",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1777531247458-24.png",
+    "score": 76,
+    "verified": true
+  },
+  "Pantene|Hair Fall Control": {
+    "brand": "Pantene",
+    "name": "Hair Fall Control",
+    "query": "Pantene Hair Fall Control",
+    "matched_name": "Pantene Hair Science Hairfall Control Shampoo with Vitamin B",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1771923717021-2152.png",
+    "score": 89,
+    "verified": true
+  },
+  "Clinic Plus|Strong & Long": {
+    "brand": "Clinic Plus",
+    "name": "Strong & Long",
+    "query": "Clinic Plus Strong & Long",
+    "matched_name": "Clinic Plus Strong & Long Health Shampoo",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1782497147859-245.png",
+    "score": 100,
+    "verified": true
+  },
+  "Tresemme|Keratin Smooth": {
+    "brand": "Tresemme",
+    "name": "Keratin Smooth",
+    "query": "Tresemme Keratin Smooth",
+    "matched_name": "Tresemme Keratin Smooth Shampoo",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1771931062015-79.png",
+    "score": 100,
+    "verified": true
+  },
+  "L'Oreal|Total Repair Shampoo": {
+    "brand": "L'Oreal",
+    "name": "Total Repair Shampoo",
+    "query": "L'Oreal Total Repair Shampoo",
+    "matched_name": "L'Oreal Paris Total Repair 5 Shampoo",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1771923717021-1076.png",
+    "score": 100,
+    "verified": true
+  },
+  "Vaseline|Healthy Bright Lotion": {
+    "brand": "Vaseline",
+    "name": "Healthy Bright Lotion",
+    "query": "Vaseline Healthy Bright Lotion",
+    "score": 0,
+    "verified": false,
+    "candidates": [
+      "Vaseline Gluta Hya Dewy Radiance Serum Body Lotion",
+      "Vaseline Gluta-Hya Flawless Glow Serum-In Body Lotion",
+      "Vaseline Gluta Hya Overnight Radiance Serum Body Lotion",
+      "Vaseline Gluta Hya Smoothening Perfector Face & Body Lotion",
+      "Vaseline Intensive Care Cocoa Glow Body Lotion",
+      "Vaseline Cloud Soft Light Face & Body Moisturizer"
+    ]
+  },
+  "Ponds|Super Light Gel": {
+    "brand": "Ponds",
+    "name": "Super Light Gel",
+    "query": "Ponds Super Light Gel",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Garnier|Micellar Water": {
+    "brand": "Garnier",
+    "name": "Micellar Water",
+    "query": "Garnier Micellar Water",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Lakme|Absolute Perfect Radiance": {
+    "brand": "Lakme",
+    "name": "Absolute Perfect Radiance",
+    "query": "Lakme Absolute Perfect Radiance",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Maybelline|Colossal Kajal": {
+    "brand": "Maybelline",
+    "name": "Colossal Kajal",
+    "query": "Maybelline Colossal Kajal",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Biotique|Bio Honey Gel": {
+    "brand": "Biotique",
+    "name": "Bio Honey Gel",
+    "query": "Biotique Bio Honey Gel",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Axe|Dark Temptation Deo": {
+    "brand": "Axe",
+    "name": "Dark Temptation Deo",
+    "query": "Axe Dark Temptation Deo",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Park Avenue|Good Morning Deo": {
+    "brand": "Park Avenue",
+    "name": "Good Morning Deo",
+    "query": "Park Avenue Good Morning Deo",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Gillette|Fusion Razor": {
+    "brand": "Gillette",
+    "name": "Fusion Razor",
+    "query": "Gillette Fusion Razor",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Veet|Hair Removal Cream": {
+    "brand": "Veet",
+    "name": "Hair Removal Cream",
+    "query": "Veet Hair Removal Cream",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Surf Excel|Matic Liquid": {
+    "brand": "Surf Excel",
+    "name": "Matic Liquid",
+    "query": "Surf Excel Matic Liquid",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Ariel|Matic Top Load": {
+    "brand": "Ariel",
+    "name": "Matic Top Load",
+    "query": "Ariel Matic Top Load",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Wheel|Green Detergent Powder": {
+    "brand": "Wheel",
+    "name": "Green Detergent Powder",
+    "query": "Wheel Green Detergent Powder",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Genteel|Liquid Detergent": {
+    "brand": "Genteel",
+    "name": "Liquid Detergent",
+    "query": "Genteel Liquid Detergent",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Pril|Dishwash Bar": {
+    "brand": "Pril",
+    "name": "Dishwash Bar",
+    "query": "Pril Dishwash Bar",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Finish|Dishwasher Salt": {
+    "brand": "Finish",
+    "name": "Dishwasher Salt",
+    "query": "Finish Dishwasher Salt",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "HIT|Cockroach Spray": {
+    "brand": "HIT",
+    "name": "Cockroach Spray",
+    "query": "HIT Cockroach Spray",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Good Knight|Gold Flash Refill": {
+    "brand": "Good Knight",
+    "name": "Gold Flash Refill",
+    "query": "Good Knight Gold Flash Refill",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "All Out|Ultra Refill": {
+    "brand": "All Out",
+    "name": "Ultra Refill",
+    "query": "All Out Ultra Refill",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Colin|Glass Cleaner": {
+    "brand": "Colin",
+    "name": "Glass Cleaner",
+    "query": "Colin Glass Cleaner",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Cif|Cream Cleaner": {
+    "brand": "Cif",
+    "name": "Cream Cleaner",
+    "query": "Cif Cream Cleaner",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Fresho|Cucumber": {
+    "brand": "Fresho",
+    "name": "Cucumber",
+    "query": "Cucumber",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Fresho|Lady Finger": {
+    "brand": "Fresho",
+    "name": "Lady Finger",
+    "query": "Lady Finger",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Fresho|Cauliflower": {
+    "brand": "Fresho",
+    "name": "Cauliflower",
+    "query": "Cauliflower",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Fresho|Cabbage": {
+    "brand": "Fresho",
+    "name": "Cabbage",
+    "query": "Cabbage",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Fresho|Beetroot": {
+    "brand": "Fresho",
+    "name": "Beetroot",
+    "query": "Beetroot",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Fresho|Green Peas": {
+    "brand": "Fresho",
+    "name": "Green Peas",
+    "query": "Green Peas",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Fresho|Sweet Corn": {
+    "brand": "Fresho",
+    "name": "Sweet Corn",
+    "query": "Sweet Corn",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Fresho|Watermelon": {
+    "brand": "Fresho",
+    "name": "Watermelon",
+    "query": "Watermelon",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Fresho|Papaya": {
+    "brand": "Fresho",
+    "name": "Papaya",
+    "query": "Papaya",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Fresho|Grapes Black": {
+    "brand": "Fresho",
+    "name": "Grapes Black",
+    "query": "Grapes Black",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Fresho|Orange Nagpur": {
+    "brand": "Fresho",
+    "name": "Orange Nagpur",
+    "query": "Orange Nagpur",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Fresho|Kiwi": {
+    "brand": "Fresho",
+    "name": "Kiwi",
+    "query": "Kiwi",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Fresho|Avocado": {
+    "brand": "Fresho",
+    "name": "Avocado",
+    "query": "Avocado",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Fresho|Dragon Fruit": {
+    "brand": "Fresho",
+    "name": "Dragon Fruit",
+    "query": "Dragon Fruit",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Fresho|Mushroom Oyster": {
+    "brand": "Fresho",
+    "name": "Mushroom Oyster",
+    "query": "Mushroom Oyster",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Fresho|Zucchini Green": {
+    "brand": "Fresho",
+    "name": "Zucchini Green",
+    "query": "Zucchini Green",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Huggies|Wonder Pants": {
+    "brand": "Huggies",
+    "name": "Wonder Pants",
+    "query": "Huggies Wonder Pants",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "MamyPoko|Extra Absorb Pants": {
+    "brand": "MamyPoko",
+    "name": "Extra Absorb Pants",
+    "query": "MamyPoko Extra Absorb Pants",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Himalaya|Baby Powder": {
+    "brand": "Himalaya",
+    "name": "Baby Powder",
+    "query": "Himalaya Baby Powder",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Sebamed|Baby Cleansing Bar": {
+    "brand": "Sebamed",
+    "name": "Baby Cleansing Bar",
+    "query": "Sebamed Baby Cleansing Bar",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Nestle|Nan Pro Stage 1": {
+    "brand": "Nestle",
+    "name": "Nan Pro Stage 1",
+    "query": "Nestle Nan Pro Stage 1",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Enfamil|A+ Stage 1": {
+    "brand": "Enfamil",
+    "name": "A+ Stage 1",
+    "query": "Enfamil A+ Stage 1",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Pigeon|Baby Wipes": {
+    "brand": "Pigeon",
+    "name": "Baby Wipes",
+    "query": "Pigeon Baby Wipes",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Mee Mee|Feeding Bottle": {
+    "brand": "Mee Mee",
+    "name": "Feeding Bottle",
+    "query": "Mee Mee Feeding Bottle",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Sunfeast|Bounce Orange": {
+    "brand": "Sunfeast",
+    "name": "Bounce Orange",
+    "query": "Sunfeast Bounce Orange",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Sunfeast|Marie Light": {
+    "brand": "Sunfeast",
+    "name": "Marie Light",
+    "query": "Sunfeast Marie Light",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Britannia|Cake Gobbles": {
+    "brand": "Britannia",
+    "name": "Cake Gobbles",
+    "query": "Britannia Cake Gobbles",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Britannia|Fudge It Brownie": {
+    "brand": "Britannia",
+    "name": "Fudge It Brownie",
+    "query": "Britannia Fudge It Brownie",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Monginis|Chocolate Muffin": {
+    "brand": "Monginis",
+    "name": "Chocolate Muffin",
+    "query": "Monginis Chocolate Muffin",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "English Oven|Multigrain Bread": {
+    "brand": "English Oven",
+    "name": "Multigrain Bread",
+    "query": "English Oven Multigrain Bread",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Modern|Sandwich Bread": {
+    "brand": "Modern",
+    "name": "Sandwich Bread",
+    "query": "Modern Sandwich Bread",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "McCain|French Fries": {
+    "brand": "McCain",
+    "name": "French Fries",
+    "query": "McCain French Fries",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "McCain|Aloo Tikki": {
+    "brand": "McCain",
+    "name": "Aloo Tikki",
+    "query": "McCain Aloo Tikki",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Yummiez|Chicken Nuggets": {
+    "brand": "Yummiez",
+    "name": "Chicken Nuggets",
+    "query": "Yummiez Chicken Nuggets",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Venky's|Chicken Sausages": {
+    "brand": "Venky's",
+    "name": "Chicken Sausages",
+    "query": "Venky's Chicken Sausages",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "ITC|Master Chef Sweet Corn": {
+    "brand": "ITC",
+    "name": "Master Chef Sweet Corn",
+    "query": "ITC Master Chef Sweet Corn",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Safal|Mixed Vegetables": {
+    "brand": "Safal",
+    "name": "Mixed Vegetables",
+    "query": "Safal Mixed Vegetables",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Pedigree|Puppy Food": {
+    "brand": "Pedigree",
+    "name": "Puppy Food",
+    "query": "Pedigree Puppy Food",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Drools|Adult Dog Food Chicken": {
+    "brand": "Drools",
+    "name": "Adult Dog Food Chicken",
+    "query": "Drools Adult Dog Food Chicken",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Whiskas|Tuna Cat Food": {
+    "brand": "Whiskas",
+    "name": "Tuna Cat Food",
+    "query": "Whiskas Tuna Cat Food",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Sheba|Cat Food Fish": {
+    "brand": "Sheba",
+    "name": "Cat Food Fish",
+    "query": "Sheba Cat Food Fish",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Drools|Cat Litter": {
+    "brand": "Drools",
+    "name": "Cat Litter",
+    "query": "Drools Cat Litter",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Himalaya|Liv.52 Tablets": {
+    "brand": "Himalaya",
+    "name": "Liv.52 Tablets",
+    "query": "Himalaya Liv.52 Tablets",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Dabur|Chyawanprash": {
+    "brand": "Dabur",
+    "name": "Chyawanprash",
+    "query": "Dabur Chyawanprash",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Ensure|Diabetes Care": {
+    "brand": "Ensure",
+    "name": "Diabetes Care",
+    "query": "Ensure Diabetes Care",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Horlicks|Women's Plus": {
+    "brand": "Horlicks",
+    "name": "Women's Plus",
+    "query": "Horlicks Women's Plus",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Bournvita|500 g Jar": {
+    "brand": "Bournvita",
+    "name": "500 g Jar",
+    "query": "Bournvita 500 g Jar",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "MuscleBlaze|Whey Protein": {
+    "brand": "MuscleBlaze",
+    "name": "Whey Protein",
+    "query": "MuscleBlaze Whey Protein",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Centrum|Multivitamin": {
+    "brand": "Centrum",
+    "name": "Multivitamin",
+    "query": "Centrum Multivitamin",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Volini|Pain Relief Spray": {
+    "brand": "Volini",
+    "name": "Pain Relief Spray",
+    "query": "Volini Pain Relief Spray",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Moov|Pain Relief Cream": {
+    "brand": "Moov",
+    "name": "Pain Relief Cream",
+    "query": "Moov Pain Relief Cream",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Dettol|Antiseptic Liquid": {
+    "brand": "Dettol",
+    "name": "Antiseptic Liquid",
+    "query": "Dettol Antiseptic Liquid",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Scotch Brite|Scrub Sponge": {
+    "brand": "Scotch Brite",
+    "name": "Scrub Sponge",
+    "query": "Scotch Brite Scrub Sponge",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Scotch Brite|Steel Scrubber": {
+    "brand": "Scotch Brite",
+    "name": "Steel Scrubber",
+    "query": "Scotch Brite Steel Scrubber",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Milton|Thermosteel Flask": {
+    "brand": "Milton",
+    "name": "Thermosteel Flask",
+    "query": "Milton Thermosteel Flask",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Cello|Water Bottle": {
+    "brand": "Cello",
+    "name": "Water Bottle",
+    "query": "Cello Water Bottle",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Tupperware|Lunch Box": {
+    "brand": "Tupperware",
+    "name": "Lunch Box",
+    "query": "Tupperware Lunch Box",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Hawkins|Pressure Cooker": {
+    "brand": "Hawkins",
+    "name": "Pressure Cooker",
+    "query": "Hawkins Pressure Cooker",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Pigeon|Non-Stick Pan": {
+    "brand": "Pigeon",
+    "name": "Non-Stick Pan",
+    "query": "Pigeon Non-Stick Pan",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Philips|Trimmer": {
+    "brand": "Philips",
+    "name": "Trimmer",
+    "query": "Philips Trimmer",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Boat|Rockerz Earphones": {
+    "brand": "Boat",
+    "name": "Rockerz Earphones",
+    "query": "Boat Rockerz Earphones",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Portronics|Power Bank 10000mAh": {
+    "brand": "Portronics",
+    "name": "Power Bank 10000mAh",
+    "query": "Portronics Power Bank 10000mAh",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Syska|LED Bulb 12W": {
+    "brand": "Syska",
+    "name": "LED Bulb 12W",
+    "query": "Syska LED Bulb 12W",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Eveready|AAA Batteries": {
+    "brand": "Eveready",
+    "name": "AAA Batteries",
+    "query": "Eveready AAA Batteries",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Panasonic|AA Batteries": {
+    "brand": "Panasonic",
+    "name": "AA Batteries",
+    "query": "Panasonic AA Batteries",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Amul|Dark Chocolate": {
+    "brand": "Amul",
+    "name": "Dark Chocolate",
+    "query": "Amul Dark Chocolate",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Toblerone|Milk Chocolate": {
+    "brand": "Toblerone",
+    "name": "Milk Chocolate",
+    "query": "Toblerone Milk Chocolate",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Nutella|Hazelnut Spread": {
+    "brand": "Nutella",
+    "name": "Hazelnut Spread",
+    "query": "Nutella Hazelnut Spread",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Borges|Extra Virgin Olive Oil": {
+    "brand": "Borges",
+    "name": "Extra Virgin Olive Oil",
+    "query": "Borges Extra Virgin Olive Oil",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "American Garden|Peanut Butter": {
+    "brand": "American Garden",
+    "name": "Peanut Butter",
+    "query": "American Garden Peanut Butter",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "FunFoods|Sandwich Spread": {
+    "brand": "FunFoods",
+    "name": "Sandwich Spread",
+    "query": "FunFoods Sandwich Spread",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Del Monte|Pineapple Slices": {
+    "brand": "Del Monte",
+    "name": "Pineapple Slices",
+    "query": "Del Monte Pineapple Slices",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Green Giant|Sweet Corn Can": {
+    "brand": "Green Giant",
+    "name": "Sweet Corn Can",
+    "query": "Green Giant Sweet Corn Can",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Barilla|Penne Pasta": {
+    "brand": "Barilla",
+    "name": "Penne Pasta",
+    "query": "Barilla Penne Pasta",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Bambino|Vermicelli": {
+    "brand": "Bambino",
+    "name": "Vermicelli",
+    "query": "Bambino Vermicelli",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Saffola|Oats Masala": {
+    "brand": "Saffola",
+    "name": "Oats Masala",
+    "query": "Saffola Oats Masala",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "True Elements|Muesli": {
+    "brand": "True Elements",
+    "name": "Muesli",
+    "query": "True Elements Muesli",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Epigamia|Greek Yogurt": {
+    "brand": "Epigamia",
+    "name": "Greek Yogurt",
+    "query": "Epigamia Greek Yogurt",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Yakult|Probiotic Drink": {
+    "brand": "Yakult",
+    "name": "Probiotic Drink",
+    "query": "Yakult Probiotic Drink",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Danone|YoPro Protein Yogurt": {
+    "brand": "Danone",
+    "name": "YoPro Protein Yogurt",
+    "query": "Danone YoPro Protein Yogurt",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Go|Cheese Slices": {
+    "brand": "Go",
+    "name": "Cheese Slices",
+    "query": "Go Cheese Slices",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Milky Mist|Paneer": {
+    "brand": "Milky Mist",
+    "name": "Paneer",
+    "query": "Milky Mist Paneer",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Nandini|Goodlife Milk": {
+    "brand": "Nandini",
+    "name": "Goodlife Milk",
+    "query": "Nandini Goodlife Milk",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Heritage|Toned Milk": {
+    "brand": "Heritage",
+    "name": "Toned Milk",
+    "query": "Heritage Toned Milk",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Arokya|Full Cream Milk": {
+    "brand": "Arokya",
+    "name": "Full Cream Milk",
+    "query": "Arokya Full Cream Milk",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Cremica|Brown Bread": {
+    "brand": "Cremica",
+    "name": "Brown Bread",
+    "query": "Cremica Brown Bread",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "English Oven|Zero Maida Bread": {
+    "brand": "English Oven",
+    "name": "Zero Maida Bread",
+    "query": "English Oven Zero Maida Bread",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Wingreens|Hummus Classic": {
+    "brand": "Wingreens",
+    "name": "Hummus Classic",
+    "query": "Wingreens Hummus Classic",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Tabasco|Green Pepper Sauce": {
+    "brand": "Tabasco",
+    "name": "Green Pepper Sauce",
+    "query": "Tabasco Green Pepper Sauce",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Sriracha|Hot Chilli Sauce": {
+    "brand": "Sriracha",
+    "name": "Hot Chilli Sauce",
+    "query": "Sriracha Hot Chilli Sauce",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Cholula|Hot Sauce": {
+    "brand": "Cholula",
+    "name": "Hot Sauce",
+    "query": "Cholula Hot Sauce",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Bru|Green Label Coffee": {
+    "brand": "Bru",
+    "name": "Green Label Coffee",
+    "query": "Bru Green Label Coffee",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Starbucks|Via Instant Coffee": {
+    "brand": "Starbucks",
+    "name": "Via Instant Coffee",
+    "query": "Starbucks Via Instant Coffee",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Twinings|Earl Grey Tea": {
+    "brand": "Twinings",
+    "name": "Earl Grey Tea",
+    "query": "Twinings Earl Grey Tea",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Organic India|Tulsi Green Tea": {
+    "brand": "Organic India",
+    "name": "Tulsi Green Tea",
+    "query": "Organic India Tulsi Green Tea",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Society|Tea": {
+    "brand": "Society",
+    "name": "Tea",
+    "query": "Society Tea",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Lipton|Yellow Label Tea": {
+    "brand": "Lipton",
+    "name": "Yellow Label Tea",
+    "query": "Lipton Yellow Label Tea",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Bacardi|Mixer Tonic Water": {
+    "brand": "Bacardi",
+    "name": "Mixer Tonic Water",
+    "query": "Bacardi Mixer Tonic Water",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Schweppes|Ginger Ale": {
+    "brand": "Schweppes",
+    "name": "Ginger Ale",
+    "query": "Schweppes Ginger Ale",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Bisleri|Soda": {
+    "brand": "Bisleri",
+    "name": "Soda",
+    "query": "Bisleri Soda",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Paper Boat|Jaljeera": {
+    "brand": "Paper Boat",
+    "name": "Jaljeera",
+    "query": "Paper Boat Jaljeera",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Real|Coconut Water": {
+    "brand": "Real",
+    "name": "Coconut Water",
+    "query": "Real Coconut Water",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Raw|Coconut Water": {
+    "brand": "Raw",
+    "name": "Coconut Water",
+    "query": "Raw Coconut Water",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Himalayan|Natural Mineral Water": {
+    "brand": "Himalayan",
+    "name": "Natural Mineral Water",
+    "query": "Himalayan Natural Mineral Water",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Evian|Natural Spring Water": {
+    "brand": "Evian",
+    "name": "Natural Spring Water",
+    "query": "Evian Natural Spring Water",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Tata|Copper Water Bottle": {
+    "brand": "Tata",
+    "name": "Copper Water Bottle",
+    "query": "Tata Copper Water Bottle",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Milton|Copper Bottle": {
+    "brand": "Milton",
+    "name": "Copper Bottle",
+    "query": "Milton Copper Bottle",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Cello|Glass Tumbler Set": {
+    "brand": "Cello",
+    "name": "Glass Tumbler Set",
+    "query": "Cello Glass Tumbler Set",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Borosil|Microwave Bowl Set": {
+    "brand": "Borosil",
+    "name": "Microwave Bowl Set",
+    "query": "Borosil Microwave Bowl Set",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Prestige|Gas Lighter": {
+    "brand": "Prestige",
+    "name": "Gas Lighter",
+    "query": "Prestige Gas Lighter",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Pigeon|Gas Stove 2 Burner": {
+    "brand": "Pigeon",
+    "name": "Gas Stove 2 Burner",
+    "query": "Pigeon Gas Stove 2 Burner",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Bajaj|LED Emergency Light": {
+    "brand": "Bajaj",
+    "name": "LED Emergency Light",
+    "query": "Bajaj LED Emergency Light",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Wipro|LED Batten 20W": {
+    "brand": "Wipro",
+    "name": "LED Batten 20W",
+    "query": "Wipro LED Batten 20W",
+    "score": 0,
+    "verified": false,
+    "candidates": []
+  },
+  "Mi|Smart Bulb": {
+    "brand": "Mi",
+    "name": "Smart Bulb",
+    "query": "Mi Smart Bulb",
+    "matched_name": "Wipro B22D Wi-Fi LED 12.5 W Smart Bulb (Multicolour)",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/7f2b3b4b-4066-4715-826b-6a2e1d380469.png",
+    "score": 100,
+    "verified": true
+  },
+  "Amazon Basics|USB Cable": {
+    "brand": "Amazon Basics",
+    "name": "USB Cable",
+    "query": "Amazon Basics USB Cable",
+    "score": 0,
+    "verified": false,
+    "candidates": [
+      "Portronics Nylon Braided USB A to Micro USB Cable",
+      "Ambrane 3A Fast Micro USB A to Micro USB Cable (1.5 m)",
+      "Portronics Nylon Braided USB A to Type C Cable",
+      "Ambrane 3A Fast USB A to Type C Cable (1.5 m)",
+      "Nu Republic Blaze Ultra 3.5A Fast Charging USB A to Type C Cable",
+      "Nu Republic Blaze Silk 3.1A Fast Charging Micro - USB A to Micro USB Cable"
+    ]
+  },
+  "Logitech|Wireless Mouse": {
+    "brand": "Logitech",
+    "name": "Wireless Mouse",
+    "query": "Logitech Wireless Mouse",
+    "matched_name": "Logitech M220 Wireless Mouse with Silent Buttons (Black)",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/d0d7b342-a61f-4cbe-95c0-1597cee06d30.png",
+    "score": 100,
+    "verified": true
+  },
+  "JBL|Go Speaker": {
+    "brand": "JBL",
+    "name": "Go Speaker",
+    "query": "JBL Go Speaker",
+    "matched_name": "JBL Portable Bluetooth Speaker (Flip-6)",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/1500d746-c0ec-415d-9da7-0a3a93e2175f.png",
+    "score": 76,
+    "verified": true
+  },
+  "boAt|Airdopes": {
+    "brand": "boAt",
+    "name": "Airdopes",
+    "query": "boAt Airdopes",
+    "matched_name": "Boat airdopes",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/cbdf2d13-b562-496c-a0bd-f6c8f5f2cc32.png",
+    "score": 100,
+    "verified": true
+  }
+}

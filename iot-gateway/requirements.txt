@@ -1,0 +1,5 @@
+# OneLink IoT Gateway — Raspberry Pi
+# Dependencies for the Python MQTT ↔ Serial bridge
+
+paho-mqtt>=1.6.1
+pyserial>=3.5

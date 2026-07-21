@@ -1,0 +1,23 @@
+diff --git a/node_modules/@expo/cli/build/src/start/server/metro/externals.js b/node_modules/@expo/cli/build/src/start/server/metro/externals.js
+index 8341467..8aa456b 100644
+--- a/node_modules/@expo/cli/build/src/start/server/metro/externals.js
++++ b/node_modules/@expo/cli/build/src/start/server/metro/externals.js
+@@ -34,7 +34,7 @@ exports.METRO_EXTERNALS_FOLDER = METRO_EXTERNALS_FOLDER;
+ const METRO_SHIMS_FOLDER = ".expo/metro/shims";
+ exports.METRO_SHIMS_FOLDER = METRO_SHIMS_FOLDER;
+ function getNodeExternalModuleId(fromModule, moduleId) {
+-    return _path.default.relative(_path.default.dirname(fromModule), _path.default.join(METRO_EXTERNALS_FOLDER, moduleId, "index.js"));
++    return _path.default.relative(_path.default.dirname(fromModule), _path.default.join(METRO_EXTERNALS_FOLDER, moduleId.replace(/:/g, '-'), "index.js"));
+ }
+ async function setupShimFiles(projectRoot) {
+     await _fs.default.promises.mkdir(_path.default.join(projectRoot, METRO_SHIMS_FOLDER), {
+@@ -79,7 +79,8 @@ function tapNodeShimContents(moduleId) {
+ async function tapNodeShims(projectRoot) {
+     const externals = {};
+     for (const moduleId of NODE_STDLIB_MODULES){
+-        const shimDir = _path.default.join(projectRoot, METRO_EXTERNALS_FOLDER, moduleId);
++        const safeModuleId = moduleId.replace(/:/g, '-');
++        const shimDir = _path.default.join(projectRoot, METRO_EXTERNALS_FOLDER, safeModuleId);
+         const shimPath = _path.default.join(shimDir, "index.js");
+         externals[moduleId] = shimPath;
+         if (!_fs.default.existsSync(shimPath)) {
