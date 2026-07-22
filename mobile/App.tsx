@@ -1,5 +1,5 @@
-import React, { useEffect } from 'react';
-import { StatusBar, View, Text, StyleSheet, ActivityIndicator } from 'react-native';
+import React, { useEffect, useRef } from 'react';
+import { StatusBar, View, Text, StyleSheet, ActivityIndicator, AppState, AppStateStatus } from 'react-native';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
 import AppNavigator from './src/navigation/AppNavigator';
@@ -15,10 +15,13 @@ import { runDailyEventSync } from './src/services/eventSyncService';
 import { resetAllUserStores } from './src/utils/resetUserStores';
 import { useAppTheme } from './src/hooks/useAppTheme';
 import { spacing, fontSize } from './src/theme/colors';
+import { warmUp } from './src/services/api';
+import { socketService } from './src/services/socket';
 
 function AppContent() {
   const { isLoading, isAuthenticated, loadToken, user } = useAuthStore();
   const theme = useAppTheme();
+  const appState = useRef(AppState.currentState);
 
   useEffect(() => {
     loadToken();
@@ -45,6 +48,29 @@ function AppContent() {
       await runDailyEventSync();
     })();
   }, [isAuthenticated, user?.userId]);
+
+  // Warm backend on foreground; pause Socket.IO in background so a backgrounded
+  // phone does not keep Render's free tier awake (burns monthly instance hours).
+  useEffect(() => {
+    const onChange = (next: AppStateStatus) => {
+      const prev = appState.current;
+      appState.current = next;
+
+      if (next === 'active' && prev.match(/inactive|background/)) {
+        warmUp();
+        const uid = useAuthStore.getState().user?.userId;
+        if (uid && useAuthStore.getState().isAuthenticated) {
+          socketService.connect(uid);
+        }
+      } else if (next === 'background') {
+        // Pause only on true background (not brief iOS "inactive") so we do not flap.
+        socketService.pause();
+      }
+    };
+
+    const sub = AppState.addEventListener('change', onChange);
+    return () => sub.remove();
+  }, []);
 
   if (isLoading) {
     return (

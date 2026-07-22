@@ -13,6 +13,8 @@ class SocketService {
   private status: SocketConnectionStatus = 'disconnected';
   private listeners = new Set<StatusListener>();
   private boundUserId: string | null = null;
+  /** When true, we intentionally closed the socket — do not auto-reconnect (saves Render hours). */
+  private intentionallyDisconnected = true;
 
   private setStatus(next: SocketConnectionStatus) {
     if (this.status === next) return;
@@ -24,6 +26,51 @@ class SocketService {
         console.warn('[socket] status listener error', e);
       }
     });
+  }
+
+  private ensureSocket(): Socket {
+    if (this.socket) return this.socket;
+
+    this.socket = io(SOCKET_URL, {
+      transports: ['websocket', 'polling'],
+      autoConnect: false,
+      reconnection: true,
+      // Finite retries — infinite reconnect wakes a sleeping Render free tier forever.
+      reconnectionAttempts: 8,
+      reconnectionDelay: 2000,
+      reconnectionDelayMax: 15000,
+    });
+
+    this.socket.on('connect', () => {
+      console.log('📡 Socket connected:', this.socket?.id);
+      this.setStatus('connected');
+      if (this.boundUserId) {
+        this.socket?.emit('join', this.boundUserId);
+      }
+    });
+
+    this.socket.io.on('reconnect_attempt', (attempt) => {
+      if (this.intentionallyDisconnected) return;
+      console.log('📡 Socket reconnecting, attempt', attempt);
+      this.setStatus('reconnecting');
+    });
+
+    this.socket.on('disconnect', (reason) => {
+      console.log('📡 Socket disconnected:', reason);
+      if (this.intentionallyDisconnected || !this.socket) {
+        this.setStatus('disconnected');
+        return;
+      }
+      this.setStatus('reconnecting');
+    });
+
+    this.socket.on('connect_error', (error) => {
+      if (this.intentionallyDisconnected) return;
+      console.error('📡 Socket connection error:', error.message);
+      this.setStatus('reconnecting');
+    });
+
+    return this.socket;
   }
 
   /** Current connection state for stores/screens (no UI changes required to consume). */
@@ -43,52 +90,20 @@ class SocketService {
    */
   connect(userId: string): Socket {
     this.boundUserId = userId;
+    this.intentionallyDisconnected = false;
 
-    if (this.socket?.connected) {
-      return this.socket;
-    }
+    const socket = this.ensureSocket();
+    socket.io.reconnection(true);
 
-    if (!this.socket) {
-      this.socket = io(SOCKET_URL, {
-        transports: ['websocket', 'polling'],
-        autoConnect: true,
-        reconnection: true,
-        reconnectionAttempts: Infinity,
-        reconnectionDelay: 2000,
-        reconnectionDelayMax: 30000,
-      });
-
-      this.socket.on('connect', () => {
-        console.log('📡 Socket connected:', this.socket?.id);
-        this.setStatus('connected');
-        if (this.boundUserId) {
-          this.socket?.emit('join', this.boundUserId);
-        }
-      });
-
-      this.socket.io.on('reconnect_attempt', (attempt) => {
-        console.log('📡 Socket reconnecting, attempt', attempt);
-        this.setStatus('reconnecting');
-      });
-
-      this.socket.on('disconnect', (reason) => {
-        console.log('📡 Socket disconnected:', reason);
-        // If socket still exists and we did not call disconnect(), Socket.IO will retry.
-        this.setStatus(this.socket ? 'reconnecting' : 'disconnected');
-      });
-
-      this.socket.on('connect_error', (error) => {
-        console.error('📡 Socket connection error:', error.message);
-        this.setStatus('reconnecting');
-      });
+    if (socket.connected) {
+      socket.emit('join', userId);
+      this.setStatus('connected');
+      return socket;
     }
 
     this.setStatus('connecting');
-    if (!this.socket.connected) {
-      this.socket.connect();
-    }
-
-    return this.socket;
+    socket.connect();
+    return socket;
   }
 
   /**
@@ -99,12 +114,31 @@ class SocketService {
   }
 
   /**
-   * Disconnect socket
+   * Pause the socket (app background). Keeps handlers; stops reconnect until connect() again.
+   */
+  pause(): void {
+    this.intentionallyDisconnected = true;
+    if (!this.socket) {
+      this.setStatus('disconnected');
+      return;
+    }
+    this.socket.io.reconnection(false);
+    this.socket.disconnect();
+    this.setStatus('disconnected');
+  }
+
+  /**
+   * Fully disconnect (logout). Clears user binding; event handlers stay on the instance
+   * until the next connect creates/reuses the socket via ensureSocket.
    */
   disconnect(): void {
-    this.socket?.disconnect();
-    this.socket = null;
+    this.intentionallyDisconnected = true;
     this.boundUserId = null;
+    if (this.socket) {
+      this.socket.io.reconnection(false);
+      this.socket.disconnect();
+      this.socket = null;
+    }
     this.setStatus('disconnected');
   }
 
@@ -112,7 +146,7 @@ class SocketService {
    * Listen for a specific event
    */
   on(event: string, callback: (...args: any[]) => void): void {
-    this.socket?.on(event, callback);
+    this.ensureSocket().on(event, callback);
   }
 
   /**

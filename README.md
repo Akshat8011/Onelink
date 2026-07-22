@@ -87,6 +87,14 @@ Mobile App ──► Cloud API (Express + MongoDB)
 **Akshat Choudhary** — Electrical Engineering + Software  
 GitHub: [Akshat8011](https://github.com/Akshat8011)
 
+## Hosting notes (Render free tier)
+
+The cloud backend (`onelink-fkqd.onrender.com`) uses Render’s **free** web service pool (**750 instance hours / workspace / month**, shared with other free services such as bbau-connect).
+
+- Free services **sleep after ~15 minutes with no traffic**. Sleeping does **not** burn hours.
+- OneLink intentionally **does not** ping the backend on a timer. Warm-up runs only when the app or kiosk is opened / touched, so demos stay snappy without keeping the server awake 24/7.
+- **Do not** add UptimeRobot, cron jobs, or other external monitors that hit the Render URLs every few minutes — that forces the service to stay awake and will exhaust the monthly quota (both OneLink and other free services in the workspace get suspended).
+
 ## License
 
 Private / all rights reserved unless otherwise noted.

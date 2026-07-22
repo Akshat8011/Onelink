@@ -81,6 +81,39 @@ let wsReconnectTimer = null;
 const WS_RECONNECT_MIN_MS = 1000;
 const WS_RECONNECT_MAX_MS = 30000;
 let activeWs = null;
+// After long idle, pause reader WS so we are not reconnecting forever while
+// nobody is at the kiosk. Reconnect on the next touch / card event.
+let wsIdlePaused = false;
+let lastUserActivityAt = Date.now();
+const WS_IDLE_DISCONNECT_MS = 12 * 60 * 1000;
+let lastPredictiveWarmAt = 0;
+const PREDICTIVE_WARM_THROTTLE_MS = 30000;
+
+function noteUserActivity() {
+  lastUserActivityAt = Date.now();
+  if (wsIdlePaused) {
+    wsIdlePaused = false;
+    warmNow();
+    connectWs();
+  }
+}
+
+function disconnectWsForIdle() {
+  wsIdlePaused = true;
+  if (wsReconnectTimer) {
+    clearTimeout(wsReconnectTimer);
+    wsReconnectTimer = null;
+  }
+  if (activeWs) {
+    try {
+      activeWs.onclose = null; // prevent scheduleWsReconnect
+      activeWs.close();
+    } catch (_) { /* ignore */ }
+    activeWs = null;
+  }
+  setState({ wsOk: false });
+  console.info('[kiosk] Reader WS paused after idle (will reconnect on next touch)');
+}
 
 function configureReader() {
   const current = (() => { try { return localStorage.getItem('onelink_reader') || ''; } catch { return ''; } })();
@@ -299,8 +332,17 @@ async function ensureBackendAwake(maxWaitMs = 90000) {
 // Fire-and-forget warm-up used when the user is about to pay, so the server is
 // hot by the time they tap their card.
 function warmNow() {
-  // Short ping — keep free-tier awake without blocking UI
+  // Fire-and-forget wake for free-tier cold starts — call on user intent only,
+  // never on a continuous timer (that burns Render's monthly free hours).
   pingBackend(3500).catch(() => {});
+}
+
+/** Throttled warm-up for first touch/key before the user taps a card. */
+function predictiveWarm() {
+  const now = Date.now();
+  if (now - lastPredictiveWarmAt < PREDICTIVE_WARM_THROTTLE_MS) return;
+  lastPredictiveWarmAt = now;
+  warmNow();
 }
 
 async function submitMutation(path, body, payKey) {
@@ -470,6 +512,7 @@ function prefetchForHome() {
 }
 
 async function onCardTap(cardUid) {
+  noteUserActivity();
   const pendingService = state.awaitingTap ? state.service : null;
   const pendingState = state.awaitingTap ? {
     service: state.service,
@@ -1146,6 +1189,7 @@ function localSlabFare(from, to) {
 }
 
 function scheduleWsReconnect(reason) {
+  if (wsIdlePaused) return;
   if (wsReconnectTimer) return;
   // Failover: advance to the next candidate host so a stale/changed IP is
   // bypassed and the mDNS hostname (or last-good) gets a turn.
@@ -1170,6 +1214,7 @@ function scheduleWsReconnect(reason) {
 }
 
 function connectWs() {
+  if (wsIdlePaused) return;
   if (activeWs && (activeWs.readyState === WebSocket.OPEN || activeWs.readyState === WebSocket.CONNECTING)) {
     return;
   }
@@ -2754,17 +2799,49 @@ loadStations();
 fetchWeather();
 setInterval(fetchWeather, 600000); // Update weather every 10 minutes
 
-// Keep the (free-tier) backend warm so taps never hit a cold start. Render
-// sleeps after ~15 min idle; keep warm with a 60s heartbeat so card taps stay snappy.
-setInterval(() => { warmNow(); }, 60000);
-warmNow(); // warm immediately on load
+// One warm on boot only — do NOT ping Render on a timer (burns free instance hours).
+// Predictive warm starts as soon as someone touches the kiosk so cold boots finish
+// before the RFID tap / payment.
+warmNow();
 
-// Also warm whenever the kiosk tab regains focus/visibility — it may have been
-// backgrounded long enough for the server to fall asleep.
-document.addEventListener('visibilitychange', () => {
-  if (document.visibilityState === 'visible') warmNow();
+document.addEventListener('pointerdown', () => {
+  noteUserActivity();
+  predictiveWarm();
+}, { passive: true });
+document.addEventListener('touchstart', () => {
+  noteUserActivity();
+  predictiveWarm();
+}, { passive: true });
+document.addEventListener('keydown', () => {
+  noteUserActivity();
+  predictiveWarm();
 });
-window.addEventListener('focus', () => warmNow());
+
+// Warm when the kiosk tab becomes visible again (may have slept while hidden).
+document.addEventListener('visibilitychange', () => {
+  if (document.visibilityState === 'visible') {
+    noteUserActivity();
+    warmNow();
+    if (wsIdlePaused) {
+      wsIdlePaused = false;
+      connectWs();
+    }
+  }
+});
+window.addEventListener('focus', () => {
+  noteUserActivity();
+  warmNow();
+});
+
+// Pause reader WS after long idle so we are not stuck in reconnect loops when
+// the kiosk is unused overnight. Render free hours are saved by NOT pinging
+// the cloud on a timer; local WS pause is complementary hygiene.
+setInterval(() => {
+  if (wsIdlePaused) return;
+  if (Date.now() - lastUserActivityAt >= WS_IDLE_DISCONNECT_MS) {
+    disconnectWsForIdle();
+  }
+}, 60000);
 
 // ── Live session sync ──────────────────────────────────────────────
 // While a user is active on a non-payment screen, re-read their card from the
