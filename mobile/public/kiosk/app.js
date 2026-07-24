@@ -116,8 +116,9 @@ function disconnectWsForIdle() {
 
 function rfidStatus() {
   // Honest three-state: WS alone used to show "Reader Online" while taps were dead.
+  // Ready = Pi brain has seen a recent ESP32 heartbeat or tap (not merely WS up).
   if (!state.wsOk) return { label: 'Reader Offline', cls: 'offline' };
-  if (state.rfidSeenRecently && state.mqttOk) {
+  if (state.rfidSeenRecently) {
     return { label: 'RFID Ready', cls: 'online' };
   }
   return { label: 'Waiting for RFID', cls: 'waiting' };
@@ -1289,7 +1290,7 @@ function connectWs() {
           return;
         }
         if (msg.event === 'card_tap' && msg.cardUid) {
-          setState({ rfidSeenRecently: true, lastRfidAt: Date.now() });
+          setState({ rfidSeenRecently: true, lastRfidAt: Date.now(), mqttOk: true });
           onCardTap(msg.cardUid);
         }
       } catch (err) {
