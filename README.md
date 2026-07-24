@@ -61,8 +61,11 @@ cd hardware/pi
 python -m venv .venv
 .venv\Scripts\activate   # or source .venv/bin/activate
 pip install -r requirements.txt
+# Defaults to public MQTT (broker.emqx.io) — see hardware/README.md
 python brain.py
 ```
+
+ESP32 firmware (WiFi portal + public MQTT, no Pi IP): `hardware/esp32/onelink_rfid_reader/`. Full flash and ops guide: [hardware/README.md](hardware/README.md).
 
 ## Architecture (high level)
 
@@ -72,13 +75,12 @@ Mobile App ──► Cloud API (Express + MongoDB)
                   ├── Socket.IO (live updates)
                   └── MQTT Gateway
                           │
-              Raspberry Pi brain ◄── RFID / ESP32 readers
-                          │
-                     Kiosk UI (local)
+ESP32 RFID ──MQTT──► broker.emqx.io ──► Raspberry Pi brain ──WS──► Kiosk UI
 ```
 
 ## Docs
 
+- [Hardware setup (ESP32 + Pi RFID link)](hardware/README.md)
 - [Engineering hardening report](docs/OneLink-Engineering-Hardening-Report.md)
 - [Proofs](docs/proofs/)
 

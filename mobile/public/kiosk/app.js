@@ -8,12 +8,11 @@ const BACKEND = 'https://onelink-fkqd.onrender.com/api/v1';
 const VERCEL = 'https://onelink-wine-psi.vercel.app';
 const WS_PORT = 8765;
 
-// Default Pi reader hosts, tried in order when no explicit override connects.
-// IMPORTANT: hostnames (mDNS/.local) survive the Pi's DHCP IP changing, so the
-// kiosk keeps working without reconfiguration. Set the Pi's hostname to
-// `onelink` (raspi-config → Hostname) so `onelink.local` always resolves.
-// The raw IP is only a last-resort fallback for when mDNS is unavailable.
-const DEFAULT_READER_HOSTS = ['onelink.local', 'raspberrypi.local', '10.20.253.171'];
+// Default Pi reader hosts for the kiosk↔brain WebSocket (not RFID MQTT).
+// Hostnames survive DHCP IP changes. Never hardcode a hotspot IP here —
+// card taps use public MQTT (broker.emqx.io), independent of Pi LAN address.
+const DEFAULT_READER_HOSTS = ['onelink.local', 'raspberrypi.local', 'localhost'];
+const RFID_SEEN_WINDOW_MS = 90 * 1000;
 
 // Weather API (free tier)
 const WEATHER_API_KEY = ''; // Add your API key if you have one
@@ -115,13 +114,40 @@ function disconnectWsForIdle() {
   console.info('[kiosk] Reader WS paused after idle (will reconnect on next touch)');
 }
 
+function rfidStatus() {
+  // Honest three-state: WS alone used to show "Reader Online" while taps were dead.
+  if (!state.wsOk) return { label: 'Reader Offline', cls: 'offline' };
+  if (state.rfidSeenRecently && state.mqttOk) {
+    return { label: 'RFID Ready', cls: 'online' };
+  }
+  return { label: 'Waiting for RFID', cls: 'waiting' };
+}
+
+function applyBrainStatus(msg) {
+  const now = Date.now();
+  let lastSeenMs = null;
+  for (const key of ['lastHeartbeatAt', 'lastTapAt']) {
+    if (!msg[key]) continue;
+    const t = Date.parse(msg[key]);
+    if (!Number.isNaN(t) && (lastSeenMs == null || t > lastSeenMs)) lastSeenMs = t;
+  }
+  const fromServer = msg.rfidSeenRecently === true;
+  const fromLocal = lastSeenMs != null && (now - lastSeenMs) <= RFID_SEEN_WINDOW_MS;
+  setState({
+    mqttOk: msg.mqttOk === true,
+    rfidSeenRecently: fromServer || fromLocal,
+    brainBroker: msg.broker || state.brainBroker,
+    lastRfidAt: lastSeenMs || state.lastRfidAt,
+  });
+}
+
 function configureReader() {
   const current = (() => { try { return localStorage.getItem('onelink_reader') || ''; } catch { return ''; } })();
   const val = window.prompt(
-    'Enter the Pi reader address.\n' +
-    'Tip: use a hostname so it survives IP changes, e.g. "onelink.local" ' +
-    '(recommended). You can also use an IP like "10.20.253.171" or add a ' +
-    'port "onelink.local:8765". Leave blank to auto-detect.',
+    'Pi brain WebSocket host (kiosk UI link only).\n' +
+    'Prefer hostname: onelink.local — survives hotspot IP changes.\n' +
+    'Card taps use cloud MQTT; you do NOT need the Pi IP in ESP32 firmware.\n' +
+    'Optional: onelink.local:8765 or leave blank to auto-detect.',
     current,
   );
   if (val === null) return;
@@ -138,6 +164,10 @@ function configureReader() {
 const state = {
   step: 'idle',
   wsOk: false,
+  mqttOk: false,
+  rfidSeenRecently: false,
+  brainBroker: null,
+  lastRfidAt: null,
   cardUid: null,
   userId: null,
   userName: null,
@@ -1241,7 +1271,7 @@ function connectWs() {
 
     ws.onclose = (ev) => {
       activeWs = null;
-      setState({ wsOk: false });
+      setState({ wsOk: false, rfidSeenRecently: false, mqttOk: false });
       console.warn('[kiosk] WebSocket closed code=%s reason=%s', ev.code, ev.reason || '(none)');
       scheduleWsReconnect('close');
     };
@@ -1254,7 +1284,14 @@ function connectWs() {
     ws.onmessage = (e) => {
       try {
         const msg = JSON.parse(e.data);
-        if (msg.event === 'card_tap' && msg.cardUid) onCardTap(msg.cardUid);
+        if (msg.event === 'brain_status') {
+          applyBrainStatus(msg);
+          return;
+        }
+        if (msg.event === 'card_tap' && msg.cardUid) {
+          setState({ rfidSeenRecently: true, lastRfidAt: Date.now() });
+          onCardTap(msg.cardUid);
+        }
       } catch (err) {
         console.warn('[kiosk] Bad WebSocket message:', err);
       }
@@ -1378,9 +1415,9 @@ function renderHeader() {
           <span class="sound-icon">${soundOn() ? '🔊' : '🔇'}</span>
         </button>
 
-        <button id="reader-status" class="header-status">
-          <span class="status-dot ${s.wsOk ? 'online' : 'offline'}"></span>
-          <span>${s.wsOk ? 'Reader Online' : 'Reader Offline'}</span>
+        <button id="reader-status" class="header-status" title="${s.brainBroker ? 'MQTT: ' + esc(s.brainBroker) : 'Pi brain WebSocket'}">
+          <span class="status-dot ${rfidStatus().cls}"></span>
+          <span>${rfidStatus().label}</span>
         </button>
       </div>
     </header>
@@ -2856,6 +2893,15 @@ connectWs();
 loadStations();
 fetchWeather();
 setInterval(fetchWeather, 600000); // Update weather every 10 minutes
+
+// Expire local RFID-ready flag if heartbeats stop (brain also pushes every ~10s).
+setInterval(() => {
+  if (!state.wsOk || !state.lastRfidAt) return;
+  const stillFresh = (Date.now() - state.lastRfidAt) <= RFID_SEEN_WINDOW_MS;
+  if (state.rfidSeenRecently !== stillFresh) {
+    setState({ rfidSeenRecently: stillFresh });
+  }
+}, 5000);
 
 // One warm on boot only — do NOT ping Render on a timer (burns free instance hours).
 // Predictive warm starts as soon as someone touches the kiosk so cold boots finish

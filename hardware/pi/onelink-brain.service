@@ -9,6 +9,8 @@ After=onelink-kiosk-ui.service
 Type=notify
 User=pi
 WorkingDirectory=/home/pi/Onelink/hardware/pi
+# Copy brain.env.example → /etc/onelink/brain.env (MQTT_BROKER=broker.emqx.io).
+# Public broker keeps ESP32 taps working when the Pi hotspot IP changes.
 EnvironmentFile=-/etc/onelink/brain.env
 ExecStart=/usr/bin/python3 /home/pi/Onelink/hardware/pi/brain.py
 Restart=always
