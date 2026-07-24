@@ -2,21 +2,25 @@
 Description=OneLink Brain (MQTT to WebSocket bridge for kiosk)
 After=network-online.target
 Wants=network-online.target
-# Start after the local kiosk HTTP server so the browser can load the page.
-After=onelink-kiosk-ui.service
 
 [Service]
-Type=notify
+Type=simple
 User=pi
 WorkingDirectory=/home/pi/Onelink/hardware/pi
-# Copy brain.env.example → /etc/onelink/brain.env (MQTT_BROKER=broker.emqx.io).
-# Public broker keeps ESP32 taps working when the Pi hotspot IP changes.
+# Prefer /etc/onelink/brain.env — set MQTT_BROKER=broker.emqx.io there.
 EnvironmentFile=-/etc/onelink/brain.env
-ExecStart=/usr/bin/python3 /home/pi/Onelink/hardware/pi/brain.py
+Environment=MQTT_BROKER=broker.emqx.io
+Environment=MQTT_PORT=1883
+Environment=MQTT_TOPIC=onelink/hardware/tap
+Environment=MQTT_TOPIC_HEARTBEAT=onelink/hardware/heartbeat
+Environment=KIOSK_WS_HOST=0.0.0.0
+Environment=KIOSK_WS_PORT=8765
+Environment=DEFAULT_TERMINAL=main_kiosk
+Environment=AUTO_PAY=0
+# Use the Pi venv that already has paho-mqtt + websockets.
+ExecStart=/home/pi/onelink-venv/bin/python /home/pi/Onelink/hardware/pi/brain.py
 Restart=always
-RestartSec=3
-# brain.py sends WATCHDOG=1 every 15s when NOTIFY_SOCKET is set.
-WatchdogSec=30
+RestartSec=5
 
 [Install]
 WantedBy=multi-user.target
