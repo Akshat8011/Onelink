@@ -1,4 +1,4 @@
-/* OneLink Kiosk - Professional UI for Samsung 10.1" Display (1280x800) */
+/* OneLink Kiosk - Professional UI for Samsung 10.1" Display (1280x800 / 800x1280) */
 
 :root {
   --primary: #6366f1;
@@ -29,6 +29,20 @@
   --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.4), 0 2px 4px -2px rgba(0, 0, 0, 0.3);
   --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.5), 0 4px 6px -4px rgba(0, 0, 0, 0.4);
   --shadow-glow: 0 0 20px rgba(99, 102, 241, 0.3);
+
+  /* Default landscape canvas (Samsung Tab A 10.1") */
+  --kiosk-w: 1280px;
+  --kiosk-h: 800px;
+}
+
+html.kiosk-landscape {
+  --kiosk-w: 1280px;
+  --kiosk-h: 800px;
+}
+
+html.kiosk-portrait {
+  --kiosk-w: 800px;
+  --kiosk-h: 1280px;
 }
 
 * {
@@ -38,11 +52,12 @@
 }
 
 html, body {
-  width: 1280px;
-  height: 800px;
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
   overflow: hidden;
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-  background: var(--bg-dark);
+  background: #000;
   color: var(--text-primary);
   touch-action: manipulation;
   -webkit-tap-highlight-color: transparent;
@@ -50,17 +65,25 @@ html, body {
   -webkit-user-select: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Snappier presses: give interactive elements immediate visual feedback */
 button { cursor: pointer; }
 
 #app {
-  width: 1280px;
-  height: 800px;
+  width: var(--kiosk-w);
+  height: var(--kiosk-h);
+  max-width: 100vw;
+  max-height: 100vh;
   display: flex;
   flex-direction: column;
   background: linear-gradient(180deg, #0f172a 0%, #1e1b4b 100%);
+  transition: width 0.35s cubic-bezier(0.4, 0, 0.2, 1), height 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  overflow: hidden;
+  position: relative;
 }
 
 /* Header Styles */
@@ -207,6 +230,45 @@ button { cursor: pointer; }
 
 .header-sound:active { transform: scale(0.92); }
 .header-sound .sound-icon { font-size: 18px; line-height: 1; }
+
+.header-orient {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform 0.18s, background 0.18s, border-color 0.18s, box-shadow 0.18s;
+  color: var(--text-primary);
+  padding: 0;
+}
+
+.header-orient:active { transform: scale(0.92); }
+.header-orient:hover {
+  background: var(--bg-card-hover);
+  border-color: rgba(99, 102, 241, 0.5);
+  box-shadow: 0 0 12px rgba(99, 102, 241, 0.25);
+}
+
+.orient-glyph {
+  display: block;
+  border: 2px solid currentColor;
+  border-radius: 3px;
+  opacity: 0.95;
+}
+
+.orient-glyph.portrait {
+  width: 12px;
+  height: 18px;
+}
+
+.orient-glyph.landscape {
+  width: 18px;
+  height: 12px;
+}
 
 .status-dot {
   width: 10px;
@@ -2415,4 +2477,289 @@ button { cursor: pointer; }
 .canteen-qty-lg span {
   font-size: 22px;
   min-width: 28px;
+}
+
+/* ============================================================
+   PORTRAIT MODE — Samsung Tab A 10.1" (800 × 1280 canvas)
+   ============================================================ */
+
+html.kiosk-portrait .kiosk-header {
+  padding: 12px 16px;
+  flex-wrap: wrap;
+  gap: 10px;
+  row-gap: 8px;
+}
+
+html.kiosk-portrait .header-brand {
+  gap: 10px;
+}
+
+html.kiosk-portrait .brand-logo {
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+html.kiosk-portrait .brand-name {
+  font-size: 18px;
+}
+
+html.kiosk-portrait .brand-tagline {
+  font-size: 10px;
+  letter-spacing: 1.5px;
+}
+
+html.kiosk-portrait .header-datetime {
+  width: 100%;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+html.kiosk-portrait .time-display {
+  font-size: 28px;
+  letter-spacing: -1px;
+}
+
+html.kiosk-portrait .date-display {
+  font-size: 11px;
+}
+
+html.kiosk-portrait .weather-widget {
+  padding: 8px 12px;
+  gap: 8px;
+  border-radius: 12px;
+}
+
+html.kiosk-portrait .weather-icon { font-size: 26px; }
+html.kiosk-portrait .weather-temp { font-size: 18px; }
+html.kiosk-portrait .weather-desc { font-size: 10px; }
+
+html.kiosk-portrait .header-status {
+  padding: 8px 12px;
+  font-size: 11px;
+}
+
+html.kiosk-portrait .kiosk-main {
+  padding: 12px 14px;
+  gap: 10px;
+}
+
+html.kiosk-portrait .user-banner {
+  padding: 12px 14px;
+  border-radius: 14px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+html.kiosk-portrait .user-avatar {
+  width: 42px;
+  height: 42px;
+  font-size: 18px;
+}
+
+html.kiosk-portrait .user-details h2 { font-size: 17px; }
+html.kiosk-portrait .balance-amount { font-size: 24px; }
+
+/* Home services — taller cards stacked comfortably */
+html.kiosk-portrait .services-grid {
+  gap: 14px;
+}
+
+html.kiosk-portrait .service-card {
+  padding: 22px 16px;
+  border-radius: 20px;
+}
+
+html.kiosk-portrait .service-icon { font-size: 42px; }
+html.kiosk-portrait .service-title { font-size: 20px; }
+html.kiosk-portrait .service-subtitle { font-size: 13px; }
+
+/* Idle hero stacks vertically */
+html.kiosk-portrait .idle-hero {
+  flex-direction: column;
+  gap: 24px;
+  align-items: stretch;
+  overflow-y: auto;
+  padding-bottom: 8px;
+}
+
+html.kiosk-portrait .idle-left,
+html.kiosk-portrait .idle-right {
+  flex: none;
+  width: 100%;
+}
+
+html.kiosk-portrait .idle-title {
+  font-size: 28px;
+}
+
+html.kiosk-portrait .idle-subtitle {
+  font-size: 15px;
+}
+
+html.kiosk-portrait .idle-animation {
+  width: 140px;
+  height: 140px;
+}
+
+html.kiosk-portrait .idle-icon {
+  font-size: 40px;
+}
+
+html.kiosk-portrait .idle-services {
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+html.kiosk-portrait .idle-main .idle-title {
+  font-size: 40px;
+}
+
+html.kiosk-portrait .idle-main .idle-subtitle {
+  font-size: 15px;
+  max-width: none;
+}
+
+html.kiosk-portrait .idle-services-row {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  width: 100%;
+}
+
+html.kiosk-portrait .idle-steps {
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+html.kiosk-portrait .idle-highlights {
+  margin-top: 18px;
+}
+
+/* Guide: single column */
+html.kiosk-portrait .guide-body {
+  grid-template-columns: 1fr;
+  gap: 12px;
+  overflow-y: auto;
+}
+
+/* Transit */
+html.kiosk-portrait .transit-screen {
+  padding: 14px 12px;
+  gap: 14px;
+}
+
+html.kiosk-portrait .stations-grid {
+  grid-template-columns: repeat(2, 1fr) !important;
+}
+
+html.kiosk-portrait .metro-map {
+  max-height: 220px;
+  overflow-x: auto;
+}
+
+/* Parking spots: fewer columns */
+html.kiosk-portrait .spots-grid {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+
+html.kiosk-portrait .spot-btn {
+  padding: 12px 6px;
+}
+
+/* Canteen: stack menu + cart */
+html.kiosk-portrait .canteen-layout {
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr auto;
+  gap: 10px;
+}
+
+html.kiosk-portrait .canteen-grid {
+  grid-template-columns: 1fr;
+  gap: 12px;
+}
+
+html.kiosk-portrait .canteen-item {
+  min-height: 0;
+  flex-direction: row;
+  height: auto;
+}
+
+html.kiosk-portrait .canteen-img {
+  width: 120px;
+  min-width: 120px;
+  height: 120px;
+  min-height: 120px;
+  max-height: 120px;
+  flex: 0 0 120px;
+}
+
+html.kiosk-portrait .canteen-item-body {
+  padding: 10px 12px;
+  justify-content: center;
+}
+
+html.kiosk-portrait .canteen-detail-card {
+  width: min(720px, 94vw);
+  max-height: 88vh;
+}
+
+html.kiosk-portrait .canteen-detail-img {
+  height: min(280px, 32vh);
+}
+
+html.kiosk-portrait .canteen-detail-row {
+  flex-direction: column;
+  align-items: stretch;
+  gap: 12px;
+}
+
+html.kiosk-portrait .canteen-add-lg {
+  width: 100%;
+}
+
+/* Pairing keypad */
+html.kiosk-portrait .keypad {
+  max-width: 360px;
+  gap: 12px;
+}
+
+html.kiosk-portrait .key-btn {
+  min-height: 64px;
+  font-size: 28px;
+}
+
+/* Footer */
+html.kiosk-portrait .kiosk-footer {
+  padding: 10px 14px;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+html.kiosk-portrait .footer-info {
+  flex-wrap: wrap;
+  gap: 10px;
+  font-size: 11px;
+}
+
+html.kiosk-portrait .help-fab {
+  bottom: 18px;
+  right: 14px;
+}
+
+/* Shop / cart lists */
+html.kiosk-portrait .carts-list,
+html.kiosk-portrait .tickets-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* Result / confirm screens breathe in portrait */
+html.kiosk-portrait .result-screen,
+html.kiosk-portrait .confirm-screen {
+  padding: 24px 16px;
 }

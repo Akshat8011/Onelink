@@ -1282,6 +1282,54 @@ function waveText(text) {
   return `<span class="wave-text">${spans}</span>`;
 }
 
+// ── Screen orientation (landscape ↔ portrait) ──────────────────────────────
+// Samsung Tab A 10.1" ships landscape by default; operators can flip to vertical
+// via the header icon. Preference is persisted and applied before first paint.
+const ORIENT_KEY = 'onelink_kiosk_orientation';
+
+function getKioskOrientation() {
+  try {
+    const saved = localStorage.getItem(ORIENT_KEY);
+    if (saved === 'portrait' || saved === 'landscape') return saved;
+  } catch (_) { /* ignore */ }
+  // Prefer physical device orientation when no preference is stored.
+  try {
+    if (window.matchMedia('(orientation: portrait)').matches) return 'portrait';
+  } catch (_) { /* ignore */ }
+  return 'landscape';
+}
+
+function applyKioskOrientation(mode, { persist = true } = {}) {
+  const next = mode === 'portrait' ? 'portrait' : 'landscape';
+  document.documentElement.classList.toggle('kiosk-portrait', next === 'portrait');
+  document.documentElement.classList.toggle('kiosk-landscape', next === 'landscape');
+  if (persist) {
+    try { localStorage.setItem(ORIENT_KEY, next); } catch (_) { /* ignore */ }
+  }
+  return next;
+}
+
+async function lockKioskOrientation(mode) {
+  try {
+    if (screen.orientation && typeof screen.orientation.lock === 'function') {
+      await screen.orientation.lock(mode === 'portrait' ? 'portrait' : 'landscape');
+    }
+  } catch (_) {
+    // Browsers often deny lock outside fullscreen — CSS layout still switches.
+  }
+}
+
+function toggleKioskOrientation() {
+  const next = getKioskOrientation() === 'portrait' ? 'landscape' : 'portrait';
+  applyKioskOrientation(next);
+  lockKioskOrientation(next);
+  if (window.Sound) window.Sound.tap();
+  render();
+}
+
+// Apply saved/detected orientation immediately (before first render call sites).
+applyKioskOrientation(getKioskOrientation(), { persist: false });
+
 // Get time-based greeting
 function getGreeting() {
   const hour = new Date().getHours();
@@ -1293,6 +1341,11 @@ function getGreeting() {
 // Render header component
 function renderHeader() {
   const s = state;
+  const orient = getKioskOrientation();
+  const orientLabel = orient === 'portrait' ? 'Switch to horizontal' : 'Switch to vertical';
+  const orientGlyph = orient === 'portrait'
+    ? '<span class="orient-glyph landscape" aria-hidden="true"></span>'
+    : '<span class="orient-glyph portrait" aria-hidden="true"></span>';
   return `
     <header class="kiosk-header">
       <div class="header-brand">
@@ -1316,6 +1369,10 @@ function renderHeader() {
             <span class="weather-desc" id="weather-desc">${s.weather.desc}</span>
           </div>
         </div>
+
+        <button id="orient-toggle" class="header-orient" aria-label="${orientLabel}" title="${orientLabel}">
+          ${orientGlyph}
+        </button>
         
         <button id="sound-toggle" class="header-sound" aria-label="Toggle sound">
           <span class="sound-icon">${soundOn() ? '🔊' : '🔇'}</span>
@@ -2745,6 +2802,7 @@ function handleAppClick(e) {
   const idEl = t.closest('[id]');
   switch (idEl && idEl.id) {
     case 'sound-toggle': return toggleSound();
+    case 'orient-toggle': return toggleKioskOrientation();
     case 'reader-status': return configureReader();
     case 'cancel':
     case 'done':
@@ -2842,6 +2900,25 @@ setInterval(() => {
     disconnectWsForIdle();
   }
 }, 60000);
+
+// Keep layout in sync when the tablet is physically rotated (Tab A 10.1").
+function onDeviceOrientationChange() {
+  let physical = 'landscape';
+  try {
+    if (window.matchMedia('(orientation: portrait)').matches) physical = 'portrait';
+  } catch (_) { /* ignore */ }
+  if (physical === getKioskOrientation()) return;
+  applyKioskOrientation(physical);
+  render();
+}
+window.addEventListener('orientationchange', () => setTimeout(onDeviceOrientationChange, 120));
+try {
+  window.matchMedia('(orientation: portrait)').addEventListener('change', onDeviceOrientationChange);
+} catch (_) {
+  try {
+    window.matchMedia('(orientation: portrait)').addListener(onDeviceOrientationChange);
+  } catch (_) { /* older WebViews */ }
+}
 
 // ── Live session sync ──────────────────────────────────────────────
 // While a user is active on a non-payment screen, re-read their card from the
